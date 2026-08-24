@@ -50,6 +50,9 @@ TagManager:
   - name: Player
     uniqueID: 3147963049
     locked: 0
+  - name: Effects
+    uniqueID: 3728006099
+    locked: 0
   m_RenderingLayers:
   - Default
   m_MigratedRenderPipelines: []

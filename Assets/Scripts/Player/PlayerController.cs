@@ -28,7 +28,7 @@ namespace Player
         private InputAction _moveInput, _interactInput;
         private Vector2 _moveAxis;
         
-        [SerializeField, ReadOnly] private Entrance _selectedEnterance;
+        [SerializeField, ReadOnly] private Entrance selectedEntrance;
 
         private void Awake()
         {
@@ -55,15 +55,14 @@ namespace Player
             rb.linearVelocity = new Vector3(_moveAxis.x * currentSpeed, 0f, _moveAxis.y * currentSpeed);
             
             animator.SetFloat(MoveBlend, _moveAxis.y);
-            Debug.Log(_moveAxis.y);
             // animator.SetFloat(Multiplier, _moveAxis.y);
         }
 
         private void OnInteract()
         {
-            if (_selectedEnterance)
+            if (selectedEntrance)
             {
-                _selectedEnterance.TriggerEnterance();
+                selectedEntrance.TriggerEntrance();
             }
         }
 
@@ -72,13 +71,17 @@ namespace Player
             var sweep = Physics.SphereCastAll(transform.position, detectionRadius, 
                 Vector3.down, 1f, detectionLayer);
 
-            if (sweep.Length <= 0) return;
+            if (sweep.Length <= 0)
+            {
+                selectedEntrance = null;
+                return;
+            }
             var detect = sweep.First();
             if (!detect.transform) return;
             
             Debug.Log($"Detected {detect}");
-            _selectedEnterance = detect.transform.GetComponent<Entrance>();
-            _selectedEnterance.DetectedEnterance();
+            selectedEntrance = detect.transform.GetComponent<Entrance>();
+            selectedEntrance.DetectedEntrance();
         }
 
         private void OnSurvivorSaved()
