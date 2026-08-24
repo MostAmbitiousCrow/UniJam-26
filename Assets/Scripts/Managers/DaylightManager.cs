@@ -25,12 +25,6 @@ namespace Managers
             GameManager.OnGameStarted -= StartTimer;
         }
 
-        private void Start()
-        {
-            // TODO Temp: REMOVE AFTER GAME FLOW HAS BEEN SET UP
-            StartTimer();
-        }
-
         private void FixedUpdate()
         {
             if (doCountDown) CountTimer();
