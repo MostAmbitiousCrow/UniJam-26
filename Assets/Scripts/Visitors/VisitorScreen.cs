@@ -50,14 +50,24 @@ namespace Visitors
             if (_noInput.WasPerformedThisFrame()) OnNo();
         }
 
+        #region Choices
+
         private void OnYes()
         {
+            yesAudio.clip = _currentEntrance.visitorData.acceptedSound;
             yesAudio?.Play();
+            
+            _currentEntrance?.RemoveVisitor(RejectionChoice.Yes);
+            
             CloseScreen();
         }
 
         private void OnNo()
         {
+            yesAudio.clip = _currentEntrance.visitorData.rejectionSound;
+            
+            _currentEntrance?.RemoveVisitor(RejectionChoice.No);
+            
             noAudio?.Play();
             CloseScreen();
         }
@@ -66,6 +76,7 @@ namespace Visitors
         {
             canvasGroup.alpha = 1;
             canvasGroup.blocksRaycasts = true;
+            canvasGroup.interactable = true;
             
             _currentEntrance = entrance;
             isOpen = true;
@@ -75,8 +86,13 @@ namespace Visitors
         {
             canvasGroup.alpha = 0;
             canvasGroup.blocksRaycasts = false;
+            canvasGroup.interactable = false;
             
             isOpen = false;
         }
+        #endregion
+        
     }
 }
+
+public enum RejectionChoice { Yes, No }

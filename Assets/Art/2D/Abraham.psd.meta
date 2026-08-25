@@ -1,0 +1,449 @@
+fileFormatVersion: 2
+guid: 00ff0b64ff6fe7a46afce55b8cbd4f5e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3673226994330790546
+    second: Abraham_0
+  - first:
+      213: -5024322269859474278
+    second: Abraham_1
+  - first:
+      213: 1221355420079740624
+    second: Abraham_2
+  - first:
+      213: 6736498471406510115
+    second: Abraham_3
+  - first:
+      213: 858208971559015468
+    second: Abraham_4
+  - first:
+      213: 8555335572601462332
+    second: Abraham_5
+  - first:
+      213: 8234375172559194455
+    second: Abraham_6
+  - first:
+      213: 8131208088353445887
+    second: Abraham_7
+  - first:
+      213: -7686238204650030795
+    second: Abraham_8
+  - first:
+      213: 5015324906201471301
+    second: Abraham_9
+  - first:
+      213: -2120068310465146193
+    second: Abraham_10
+  - first:
+      213: -680878585809475590
+    second: Abraham_11
+  - first:
+      213: -3583915995992514810
+    second: Abraham_12
+  - first:
+      213: 4370009419418521578
+    second: Abraham_13
+  - first:
+      213: 4556891448864007595
+    second: Abraham_14
+  - first:
+      213: 2479179885956560323
+    second: Abraham_15
+  - first:
+      213: -2034756636259633715
+    second: Abraham_16
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1024
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Abraham_0
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 2339
+        width: 1049
+        height: 1839
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e65998f9283160dc0800000000000000
+      internalID: -3673226994330790546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abraham_1
+      rect:
+        serializedVersion: 2
+        x: 1490
+        y: 2335
+        width: 1057
+        height: 1799
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9411fbf385064ab0800000000000000
+      internalID: -5024322269859474278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abraham_2
+      rect:
+        serializedVersion: 2
+        x: 2860
+        y: 2340
+        width: 1038
+        height: 1841
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d6d956984023f010800000000000000
+      internalID: 1221355420079740624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abraham_3
+      rect:
+        serializedVersion: 2
+        x: 4400
+        y: 2925
+        width: 1049
+        height: 1282
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 320a5221ba9dc7d50800000000000000
+      internalID: 6736498471406510115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abraham_4
+      rect:
+        serializedVersion: 2
+        x: 5756
+        y: 2918
+        width: 1049
+        height: 1281
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2414dc3388f8eb00800000000000000
+      internalID: 858208971559015468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abraham_10
+      rect:
+        serializedVersion: 2
+        x: 87
+        y: 326
+        width: 1057
+        height: 1811
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa2992faa110492e0800000000000000
+      internalID: -2120068310465146193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abraham_11
+      rect:
+        serializedVersion: 2
+        x: 1152
+        y: 329
+        width: 1057
+        height: 1801
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7e7ad98880d86f0800000000000000
+      internalID: -680878585809475590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abraham_12
+      rect:
+        serializedVersion: 2
+        x: 2254
+        y: 324
+        width: 1057
+        height: 1811
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60f960ad36f534ec0800000000000000
+      internalID: -3583915995992514810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abraham_13
+      rect:
+        serializedVersion: 2
+        x: 3555
+        y: 325
+        width: 1077
+        height: 1843
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aef4d85e96465ac30800000000000000
+      internalID: 4370009419418521578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abraham_14
+      rect:
+        serializedVersion: 2
+        x: 4616
+        y: 327
+        width: 1066
+        height: 1851
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba5ed8911a45d3f30800000000000000
+      internalID: 4556891448864007595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abraham_15
+      rect:
+        serializedVersion: 2
+        x: 5753
+        y: 327
+        width: 1067
+        height: 1852
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c5fbb498f0d76220800000000000000
+      internalID: 2479179885956560323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Abraham_16
+      rect:
+        serializedVersion: 2
+        x: 6831
+        y: 325
+        width: 1077
+        height: 1843
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc53063be9713c3e0800000000000000
+      internalID: -2034756636259633715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: e6f2f366d3b5c76429d2d0076a2d2223
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Abraham_0: -3673226994330790546
+      Abraham_1: -5024322269859474278
+      Abraham_10: -2120068310465146193
+      Abraham_11: -680878585809475590
+      Abraham_12: -3583915995992514810
+      Abraham_13: 4370009419418521578
+      Abraham_14: 4556891448864007595
+      Abraham_15: 2479179885956560323
+      Abraham_16: -2034756636259633715
+      Abraham_2: 1221355420079740624
+      Abraham_3: 6736498471406510115
+      Abraham_4: 858208971559015468
+      Abraham_5: 8555335572601462332
+      Abraham_6: 8234375172559194455
+      Abraham_7: 8131208088353445887
+      Abraham_8: -7686238204650030795
+      Abraham_9: 5015324906201471301
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

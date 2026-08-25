@@ -1,9 +1,13 @@
 using UnityEngine;
 
-public class VisitorData : MonoBehaviour
+[CreateAssetMenu(fileName = "Visitor Data", menuName = "ScriptableObjects/Visitor Data", order = 1)]
+public class VisitorData : ScriptableObject
 {
     public VisitorType visitorType;
-    
+    public Sprite[] ears, eyes, mouths, body, neck, head, hats;
+
+    public AudioClip rejectionSound, acceptedSound;
+    [Range(0f, 1f)] public float appearanceWeight = .1f;
     
 }
 

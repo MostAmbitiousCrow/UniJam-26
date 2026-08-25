@@ -1,4 +1,6 @@
+using System;
 using EditorAttributes;
+using Managers;
 using UnityEngine;
 using Visitors;
 
@@ -18,6 +20,8 @@ namespace Triggerable
         [Header("Audio")]
         [SerializeField] private AudioSource triggerSound;
         [SerializeField] private AudioSource alertSound;
+        
+        private VisitorManager _visitorManager;
 
         private void OnEnable()
         {
@@ -29,6 +33,11 @@ namespace Triggerable
             
         }
 
+        private void Awake()
+        {
+            _visitorManager = FindAnyObjectByType<VisitorManager>();
+        }
+
         private void Start()
         {
             alert.SetActive(false);
@@ -38,13 +47,28 @@ namespace Triggerable
 
         public void DeliverVisitor(VisitorData data)
         {
+            if (!data)
+            {
+                Debug.LogWarning($"Missing Visitor at {this}");
+                return;
+            }
+            
             alert.SetActive(true);
             _visitorData = data;
+            
+            Debug.Log($"Delivered a {data.visitorType} at {gameObject}");
         }
 
-        public void RemoveVisitor()
+        /// <summary>
+        /// Remove this entrances visitor and return it to the Visitor Manager
+        /// </summary>
+        /// <param name="choice"></param>
+        public void RemoveVisitor(RejectionChoice choice)
         {
             _visitorData = null;
+            _visitorManager.ReturnEntrance(this);
+            
+            alert.SetActive(false);
         }
 
         #endregion
