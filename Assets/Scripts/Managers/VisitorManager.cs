@@ -83,7 +83,7 @@ namespace Managers
         private void SpawnVisitor()
         {
             // Pick Entrance
-            if (entrances.Length <= 0) return;
+            if (_availableEntrances.Count <= 0) return;
             Entrance entrance = _availableEntrances[Random.Range(0, _availableEntrances.Count)];
             
             _availableEntrances.Remove(entrance);
@@ -112,7 +112,7 @@ namespace Managers
             {
                 return imposterData;
             }
-
+            
             return null;
 
         }

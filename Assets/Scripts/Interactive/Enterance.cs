@@ -82,6 +82,8 @@ namespace Triggerable
 
         public void TriggerEntrance()
         {
+            if (!hasVisitor) return;
+            
             triggerSound?.Play();
             VisitorScreen.instance.OpenScreen(this);
             

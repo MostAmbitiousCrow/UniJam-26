@@ -1,4 +1,7 @@
 using System;
+using System.Runtime.CompilerServices;
+using EditorAttributes;
+using Managers;
 using Triggerable;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -13,13 +16,18 @@ namespace Visitors
         [SerializeField] private Button yesButton, noButton;
         public bool isOpen { get; private set; } = false;
 
+        [Header("Visuals")]
+        [SerializeField] private Image background;
+        [SerializeField] private Sprite doorBackground;
+        [SerializeField] private Sprite windowBackground;
+
         [Header("Audio")]
         [SerializeField] private AudioSource yesAudio;
         [SerializeField] private AudioSource noAudio;
         
         public static Action OnEntranceOpened, OnEntranceClosed;
         
-        private Entrance _currentEntrance;
+        [SerializeField, ReadOnly] private Entrance _currentEntrance;
         
         public static VisitorScreen instance { get; private set; }
         
@@ -54,20 +62,28 @@ namespace Visitors
 
         private void OnYes()
         {
+            if (_currentEntrance == null) return;
+            Debug.Log($"{_currentEntrance.visitorData.visitorType} was Accepted");
+            
             yesAudio.clip = _currentEntrance.visitorData.acceptedSound;
             yesAudio?.Play();
             
-            _currentEntrance?.RemoveVisitor(RejectionChoice.Yes);
-            
+            VisitorManager.DecideVisitorChoice(_currentEntrance.visitorData.visitorType, RejectionChoice.Yes);
+            _currentEntrance.RemoveVisitor(RejectionChoice.Yes);
+
             CloseScreen();
         }
 
         private void OnNo()
         {
+            if (_currentEntrance == null) return;
+             Debug.Log($"{_currentEntrance.visitorData.visitorType} was Rejected");
+            
             yesAudio.clip = _currentEntrance.visitorData.rejectionSound;
             
-            _currentEntrance?.RemoveVisitor(RejectionChoice.No);
-            
+            VisitorManager.DecideVisitorChoice(_currentEntrance.visitorData.visitorType, RejectionChoice.No);
+            _currentEntrance.RemoveVisitor(RejectionChoice.No);
+
             noAudio?.Play();
             CloseScreen();
         }
@@ -80,6 +96,9 @@ namespace Visitors
             
             _currentEntrance = entrance;
             isOpen = true;
+            
+            // Update Background
+            background.sprite = entrance.entranceType == EntranceType.Door? doorBackground : windowBackground;
         }
 
         private void CloseScreen()

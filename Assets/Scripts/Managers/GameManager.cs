@@ -13,6 +13,11 @@ namespace Managers
         /// <summary> The survivors currently in Inventory </summary>
         public int survivorsInInventory;
 
+        private void Awake()
+        {
+            Instance = this;
+        }
+
         private void Start()
         {
             //TODO: TEMP UNTIL GAME FLOW HAS BEEN ESTABLISHED
@@ -25,6 +30,8 @@ namespace Managers
 
         public static void StartGame()
         {
+            Debug.Log("GAME ENDED");
+            
             OnGameStarted?.Invoke();
             
             // Reset game stats
@@ -33,11 +40,15 @@ namespace Managers
 
         public static void EndGame()
         {
+            Debug.Log("GAME ENDED");
+            
             OnGameEnded?.Invoke();
         }
         
         public static void TriggerGameOver()
         {
+            Debug.Log("GAME OVER WAS TRIGGERED");
+            
             OnGameOver?.Invoke();
         }
         #endregion

@@ -8,7 +8,8 @@ namespace Player
 {
     public class PlayerController : MonoBehaviour
     {
-        private static readonly int MoveBlend = Animator.StringToHash("MoveBlend");
+        private static readonly int MoveYBlend = Animator.StringToHash("MoveYBlend");
+        private static readonly int MoveXBlend = Animator.StringToHash("MoveXBlend");
         private static readonly int Multiplier = Animator.StringToHash("Multiplier");
         
         [SerializeField] private float moveSpeed = 5f;
@@ -54,8 +55,8 @@ namespace Player
             
             rb.linearVelocity = new Vector3(_moveAxis.x * currentSpeed, 0f, _moveAxis.y * currentSpeed);
             
-            animator.SetFloat(MoveBlend, _moveAxis.y);
-            // animator.SetFloat(Multiplier, _moveAxis.y);
+            animator.SetFloat(MoveYBlend, _moveAxis.y);
+            animator.SetFloat(MoveXBlend, _moveAxis.x);
         }
 
         private void OnInteract()
@@ -79,7 +80,6 @@ namespace Player
             var detect = sweep.First();
             if (!detect.transform) return;
             
-            Debug.Log($"Detected {detect}");
             selectedEntrance = detect.transform.GetComponent<Entrance>();
             selectedEntrance.DetectedEntrance();
         }
