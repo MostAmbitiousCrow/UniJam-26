@@ -1,0 +1,1484 @@
+fileFormatVersion: 2
+guid: bf52f09caac2ae445b6e28fb133a8fad
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3301722007594020895
+    second: Civilian 5_0
+  - first:
+      213: -2831146357903199107
+    second: Civilian 5_1
+  - first:
+      213: 4564429312028678244
+    second: Civilian 5_2
+  - first:
+      213: 6591860601089242225
+    second: Civilian 5_3
+  - first:
+      213: 5827969636109358140
+    second: Civilian 5_4
+  - first:
+      213: 2326523123256631431
+    second: Civilian 5_5
+  - first:
+      213: 4610860530259221551
+    second: Civilian 5_6
+  - first:
+      213: 8154308589751935951
+    second: Civilian 5_7
+  - first:
+      213: -6530329197395471875
+    second: Civilian 5_8
+  - first:
+      213: 39347589544456422
+    second: Civilian 5_9
+  - first:
+      213: 7592548042292463431
+    second: Civilian 5_10
+  - first:
+      213: 3027136204280789426
+    second: Civilian 5_11
+  - first:
+      213: 1772395155506005869
+    second: Civilian 5_12
+  - first:
+      213: 6205637150057849283
+    second: Civilian 5_13
+  - first:
+      213: 2504699797969010288
+    second: Civilian 5_14
+  - first:
+      213: -6513099160845856533
+    second: Civilian 5_15
+  - first:
+      213: -5025586900076989898
+    second: Civilian 5_16
+  - first:
+      213: 5066392965997398664
+    second: Civilian 5_17
+  - first:
+      213: -2238565447526081159
+    second: Civilian 5_18
+  - first:
+      213: -6489536552706155185
+    second: Civilian 5_19
+  - first:
+      213: 112186912380084787
+    second: Civilian 5_20
+  - first:
+      213: -8120238802969286350
+    second: Civilian 5_21
+  - first:
+      213: -2556512479149534793
+    second: Civilian 5_22
+  - first:
+      213: -7233537482583576425
+    second: Civilian 5_23
+  - first:
+      213: 1473092005662675330
+    second: Civilian 5_24
+  - first:
+      213: -3826850113463384204
+    second: Civilian 5_25
+  - first:
+      213: 2584089277430162413
+    second: Civilian 5_26
+  - first:
+      213: -6503735852430952692
+    second: Civilian 5_27
+  - first:
+      213: 8070678612027424813
+    second: Civilian 5_28
+  - first:
+      213: -1842572596345713109
+    second: Civilian 5_29
+  - first:
+      213: 7707757961383626422
+    second: Civilian 5_30
+  - first:
+      213: 2516223489414363422
+    second: Civilian 5_31
+  - first:
+      213: -6661625051179517401
+    second: Civilian 5_32
+  - first:
+      213: -6212465330409701364
+    second: Civilian 5_33
+  - first:
+      213: 8072235705774966999
+    second: Civilian 5_34
+  - first:
+      213: -7034564427787607974
+    second: Civilian 5_35
+  - first:
+      213: -6378742153425529622
+    second: Civilian 5_36
+  - first:
+      213: -5240208054662726161
+    second: Civilian 5_37
+  - first:
+      213: -3980753905404164471
+    second: Civilian 5_38
+  - first:
+      213: 2861973161261959717
+    second: Civilian 5_39
+  - first:
+      213: -7762564412786384931
+    second: Civilian 5_40
+  - first:
+      213: 4099273479272058924
+    second: Civilian 5_41
+  - first:
+      213: 6107943070822819858
+    second: Civilian 5_42
+  - first:
+      213: 2291312930629004884
+    second: Civilian 5_43
+  - first:
+      213: -8096921192987167883
+    second: Civilian 5_44
+  - first:
+      213: -5395548164809442191
+    second: Civilian 5_45
+  - first:
+      213: 6200428841373503596
+    second: Civilian 5_46
+  - first:
+      213: 3025798573628427319
+    second: Civilian 5_47
+  - first:
+      213: 6337861529966992844
+    second: Civilian 5_48
+  - first:
+      213: -9047739839687933041
+    second: Civilian 5_49
+  - first:
+      213: -6356951757732863036
+    second: Civilian 5_50
+  - first:
+      213: 3622927923723255228
+    second: Civilian 5_51
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1024
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 0
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Imposter_0
+      rect:
+        serializedVersion: 2
+        x: 295
+        y: 2292
+        width: 988
+        height: 1999
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d9297fd669cab4aa6e0dd6de28e493
+      internalID: -1115625442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_1
+      rect:
+        serializedVersion: 2
+        x: 1327
+        y: 2338
+        width: 843
+        height: 1965
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2925d6eecda70b74790acbde13b24545
+      internalID: 849311012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_2
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 2334
+        width: 996
+        height: 1969
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def09b8097833bb4abc8c818f2ed7754
+      internalID: 673601069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_3
+      rect:
+        serializedVersion: 2
+        x: 3674
+        y: 4170
+        width: 180
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d453eefa8ebdd64496b809a04954eb8
+      internalID: 1111042126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_4
+      rect:
+        serializedVersion: 2
+        x: 3928
+        y: 4174
+        width: 152
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e08f1203a7ed18c40baaa95daddaaa51
+      internalID: 794853158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_5
+      rect:
+        serializedVersion: 2
+        x: 4272
+        y: 4178
+        width: 179
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e81d5389bf0ed0848b993248db528da2
+      internalID: -776996576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_6
+      rect:
+        serializedVersion: 2
+        x: 4303
+        y: 4026
+        width: 140
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7303328eb0bcc146b7c8a2c3ed9cf38
+      internalID: 657785921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_7
+      rect:
+        serializedVersion: 2
+        x: 4525
+        y: 4178
+        width: 153
+        height: 51
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37f1d92ebb8fb7e448eda6660d97062b
+      internalID: -1219507256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_8
+      rect:
+        serializedVersion: 2
+        x: 4533
+        y: 4022
+        width: 141
+        height: 156
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1344fe343a39b2d44b776f71fa5378ec
+      internalID: 1825642341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_9
+      rect:
+        serializedVersion: 2
+        x: 5475
+        y: 2792
+        width: 1074
+        height: 1593
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec0b4146db7862240a376f7415a4a9b8
+      internalID: 161506162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_10
+      rect:
+        serializedVersion: 2
+        x: 6709
+        y: 2787
+        width: 1078
+        height: 1590
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 504d9fa51131ed84d8bd15794183d64a
+      internalID: -1208606227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_11
+      rect:
+        serializedVersion: 2
+        x: 3701
+        y: 4018
+        width: 145
+        height: 152
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c44d979fd7479148ad1df019cb6e574
+      internalID: 265763211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_12
+      rect:
+        serializedVersion: 2
+        x: 3936
+        y: 4010
+        width: 140
+        height: 160
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 172365ba18ac68f489abc87ee461a110
+      internalID: 1393838410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_13
+      rect:
+        serializedVersion: 2
+        x: 4783
+        y: 4014
+        width: 477
+        height: 136
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa19d54133c1ecd4e9cc03b33549a77c
+      internalID: 1988569189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_14
+      rect:
+        serializedVersion: 2
+        x: 3533
+        y: 3619
+        width: 188
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a2abd87aa429e7498ce58fdc4ba2fcb
+      internalID: 683154238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_15
+      rect:
+        serializedVersion: 2
+        x: 4065
+        y: 3627
+        width: 191
+        height: 324
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a70098d812adb1b46a3f9687a8547760
+      internalID: -308758889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_16
+      rect:
+        serializedVersion: 2
+        x: 4510
+        y: 3467
+        width: 187
+        height: 468
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9db2499c70bb354bb4b5a0e76c47c33
+      internalID: -326538898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_17
+      rect:
+        serializedVersion: 2
+        x: 5041
+        y: 3615
+        width: 191
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8fe2a9c22d39d9f4ea1d96f9d568595a
+      internalID: -406100191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_18
+      rect:
+        serializedVersion: 2
+        x: 3549
+        y: 2986
+        width: 148
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa693ac7758ee846a972ae5365db8ee
+      internalID: -511330755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_19
+      rect:
+        serializedVersion: 2
+        x: 3830
+        y: 3373
+        width: 121
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a34623fbdfff0d74e8bbc87d59282558
+      internalID: 1241296252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_20
+      rect:
+        serializedVersion: 2
+        x: 4100
+        y: 3002
+        width: 168
+        height: 414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49687e7da7e89304db8d428d9437127c
+      internalID: -1529131946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_21
+      rect:
+        serializedVersion: 2
+        x: 4592
+        y: 2994
+        width: 148
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c4d59b62cef1b4b981719b90314edb
+      internalID: 1660430231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_22
+      rect:
+        serializedVersion: 2
+        x: 5064
+        y: 3006
+        width: 165
+        height: 410
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f66c8cc71976f6c4eab34cf68b01fae3
+      internalID: -593597204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_23
+      rect:
+        serializedVersion: 2
+        x: 3584
+        y: 2447
+        width: 148
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2f50af074bdbd1428cab2581d77d0de
+      internalID: 735099542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_24
+      rect:
+        serializedVersion: 2
+        x: 4057
+        y: 2455
+        width: 164
+        height: 414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa412d7b582fc834e9a7ddfd732db87d
+      internalID: 664768534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_25
+      rect:
+        serializedVersion: 2
+        x: 4658
+        y: 1627
+        width: 645
+        height: 1012
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0980c95f5939a98499c5ffa14326166c
+      internalID: -242722804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_26
+      rect:
+        serializedVersion: 2
+        x: 5621
+        y: 1639
+        width: 646
+        height: 1011
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ebba7b5b6707481488675d6047563658
+      internalID: 302453580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_27
+      rect:
+        serializedVersion: 2
+        x: 6619
+        y: 2037
+        width: 535
+        height: 504
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad6e3f0c542d3e04b988d5db9c4898a3
+      internalID: 967999865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_28
+      rect:
+        serializedVersion: 2
+        x: 7283
+        y: 2057
+        width: 535
+        height: 500
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c09fb054fa271c744b9063f307b209c0
+      internalID: -429643081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_29
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 1092
+        width: 984
+        height: 1113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01598c8c2ced6e479bd73152922e462
+      internalID: 65993001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_30
+      rect:
+        serializedVersion: 2
+        x: 1197
+        y: 1065
+        width: 989
+        height: 1113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 384d97da0806f6c4693496cbcf3b537f
+      internalID: 865068277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_31
+      rect:
+        serializedVersion: 2
+        x: 2365
+        y: 1076
+        width: 985
+        height: 1113
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abfaef55334569b46a81d54265ad6838
+      internalID: -1955018055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_32
+      rect:
+        serializedVersion: 2
+        x: 3432
+        y: 1100
+        width: 988
+        height: 1109
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7555c473f9867949a99ad6ffc9fb81f
+      internalID: -1800059584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_33
+      rect:
+        serializedVersion: 2
+        x: 4666
+        y: 701
+        width: 867
+        height: 719
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 389f1239acd01dd4ba65fed6b70d0119
+      internalID: 48622273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_34
+      rect:
+        serializedVersion: 2
+        x: 6752
+        y: 143
+        width: 1074
+        height: 1589
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed81262cc9f1f794eb67c889d16d622f
+      internalID: 1147553697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_35
+      rect:
+        serializedVersion: 2
+        x: 307
+        y: 666
+        width: 148
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb80331d5c0cd504199e59411e5801d2
+      internalID: -354954906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_36
+      rect:
+        serializedVersion: 2
+        x: 775
+        y: 678
+        width: 168
+        height: 414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8275767389ddb2f4f85ab3af73ac5c87
+      internalID: -1181692444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_37
+      rect:
+        serializedVersion: 2
+        x: 1373
+        y: 639
+        width: 148
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5004a72c235a443b419ec9f53ba4f6
+      internalID: 1822526301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_38
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 650
+        width: 168
+        height: 414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 788f6bb7edaa84241b59752af9b6081c
+      internalID: -1115488337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_39
+      rect:
+        serializedVersion: 2
+        x: 2537
+        y: 650
+        width: 149
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bc18082c4e9238478beb228f589c0ee
+      internalID: 171071285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_40
+      rect:
+        serializedVersion: 2
+        x: 3006
+        y: 658
+        width: 168
+        height: 414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d93036930dad740a1d5f298c5b0b43
+      internalID: -581434649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_41
+      rect:
+        serializedVersion: 2
+        x: 3607
+        y: 674
+        width: 149
+        height: 425
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a56323b6e2c44b47970d0d5b3154940
+      internalID: 1884403835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_42
+      rect:
+        serializedVersion: 2
+        x: 4080
+        y: 682
+        width: 164
+        height: 414
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f3e221b2d352da4da8bbf03e1f62523
+      internalID: 600804669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_43
+      rect:
+        serializedVersion: 2
+        x: 5682
+        y: 213
+        width: 869
+        height: 719
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f76f73cf1e86165409c9c78e6fd42fc8
+      internalID: -2007423036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_44
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 162
+        width: 195
+        height: 328
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af2677994ab5935499e44cefbf0a8aa2
+      internalID: 879376288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_45
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 166
+        width: 196
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f92042abcae9c8498ad936aa0193d5e
+      internalID: -2108760600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_46
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 178
+        width: 195
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66662f0efa752694cab482418f9c5ee1
+      internalID: 1654832213
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_47
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 186
+        width: 191
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4168688f4a0f883459d606f1fe0cf83b
+      internalID: 1521927262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_48
+      rect:
+        serializedVersion: 2
+        x: 2490
+        y: 201
+        width: 192
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3a9741ae2154e1d439e49ad0429b936e
+      internalID: 1012188670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_49
+      rect:
+        serializedVersion: 2
+        x: 3022
+        y: 209
+        width: 195
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 650fb96b53a152347afe062d89efee1c
+      internalID: -1148038096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_50
+      rect:
+        serializedVersion: 2
+        x: 3572
+        y: 213
+        width: 196
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b6023f7bf43ae24fb40897b715f2c35
+      internalID: 1996983502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Imposter_51
+      rect:
+        serializedVersion: 2
+        x: 4104
+        y: 221
+        width: 195
+        height: 332
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fe33ce5048811e45a9f31fd075e7667
+      internalID: 857141640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: d7a18e4f7d33e774b813dee2f4c5817d
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.5,"y":0.5},"pivotPixels":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"pivotUnitMode":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
+    nameFileIdTable:
+      Imposter_0: -1115625442
+      Imposter_1: 849311012
+      Imposter_10: -1208606227
+      Imposter_11: 265763211
+      Imposter_12: 1393838410
+      Imposter_13: 1988569189
+      Imposter_14: 683154238
+      Imposter_15: -308758889
+      Imposter_16: -326538898
+      Imposter_17: -406100191
+      Imposter_18: -511330755
+      Imposter_19: 1241296252
+      Imposter_2: 673601069
+      Imposter_20: -1529131946
+      Imposter_21: 1660430231
+      Imposter_22: -593597204
+      Imposter_23: 735099542
+      Imposter_24: 664768534
+      Imposter_25: -242722804
+      Imposter_26: 302453580
+      Imposter_27: 967999865
+      Imposter_28: -429643081
+      Imposter_29: 65993001
+      Imposter_3: 1111042126
+      Imposter_30: 865068277
+      Imposter_31: -1955018055
+      Imposter_32: -1800059584
+      Imposter_33: 48622273
+      Imposter_34: 1147553697
+      Imposter_35: -354954906
+      Imposter_36: -1181692444
+      Imposter_37: 1822526301
+      Imposter_38: -1115488337
+      Imposter_39: 171071285
+      Imposter_4: 794853158
+      Imposter_40: -581434649
+      Imposter_41: 1884403835
+      Imposter_42: 600804669
+      Imposter_43: -2007423036
+      Imposter_44: 879376288
+      Imposter_45: -2108760600
+      Imposter_46: 1654832213
+      Imposter_47: 1521927262
+      Imposter_48: 1012188670
+      Imposter_49: -1148038096
+      Imposter_5: -776996576
+      Imposter_50: 1996983502
+      Imposter_51: 857141640
+      Imposter_6: 657785921
+      Imposter_7: -1219507256
+      Imposter_8: 1825642341
+      Imposter_9: 161506162
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

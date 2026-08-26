@@ -1,4 +1,6 @@
 using System;
+using System.Collections;
+using DG.Tweening;
 using EditorAttributes;
 using Managers;
 using UnityEngine;
@@ -15,7 +17,12 @@ namespace Triggerable
         public bool hasVisitor => _visitorData;
         
         [SerializeField] private GameObject alert;
-        [SerializeField] private float alertRate = 2.6f;
+        [SerializeField] private float alertIntensity = 1f;
+        
+        [Space]
+        [SerializeField] private float patienceTime = 20f;
+        [SerializeField] private float patienceAlert = 5f;
+        private Coroutine _patienceRoutine;
         
         [Header("Audio")]
         [SerializeField] private AudioSource triggerSound;
@@ -56,19 +63,58 @@ namespace Triggerable
             alert.SetActive(true);
             _visitorData = data;
             
+             _patienceRoutine = StartCoroutine(PatienceTimerRoutine());
+            
             Debug.Log($"Delivered a {data.visitorType} at {gameObject}");
         }
 
         /// <summary>
         /// Remove this entrances visitor and return it to the Visitor Manager
         /// </summary>
-        /// <param name="choice"></param>
-        public void RemoveVisitor(RejectionChoice choice)
+        public void RemoveVisitor()
         {
             _visitorData = null;
             _visitorManager.ReturnEntrance(this);
             
             alert.SetActive(false);
+            
+            if (_patienceRoutine != null) StopCoroutine(_patienceRoutine);
+        }
+
+        private IEnumerator PatienceTimerRoutine()
+        {
+            var time = 0f;
+            var alerted = false;
+
+            while (time < patienceTime)
+            {
+                if (time > patienceTime - patienceAlert && !alerted)
+                {
+                    var tween =
+                        alert.transform.DOPunchScale(Vector3.one * alertIntensity, .35f);
+                    tween.SetEase(Ease.InOutCubic);
+                    tween.SetLoops(-1, LoopType.Yoyo);
+                    alerted = true;
+                }
+                
+                yield return time += Time.deltaTime;
+            }
+
+            alert.transform.DOKill(true);
+            
+            OnVisitorPatienceEnded();
+        }
+
+        private void OnVisitorPatienceEnded()
+        {
+            // The Survivor waited too long as was killed
+            if (visitorData.visitorType == VisitorType.Survivor) 
+                VisitorManager.DecideVisitorChoice(visitorData.visitorType, RejectionChoice.No);
+            
+            // The Vampire/Imposter was able to enter the house after not being rejected
+            else VisitorManager.DecideVisitorChoice(visitorData.visitorType, RejectionChoice.Yes);
+            
+            RemoveVisitor();
         }
 
         #endregion

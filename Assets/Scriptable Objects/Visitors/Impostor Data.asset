@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Impostor Data
   m_EditorClassIdentifier: Assembly-CSharp::VisitorData
   visitorType: 2
-  ears: []
-  eyes: []
-  mouths: []
-  body: []
-  neck: []
-  head: []
+  variants:
+  - {fileID: 434426916058278039, guid: 45b87ecf73a880d4b8063927fd3fad73, type: 3}
+  - {fileID: -5671482075367619119, guid: 45b87ecf73a880d4b8063927fd3fad73, type: 3}
+  - {fileID: 2237087575672268337, guid: 45b87ecf73a880d4b8063927fd3fad73, type: 3}
+  - {fileID: 7297920656185577335, guid: 45b87ecf73a880d4b8063927fd3fad73, type: 3}
+  - {fileID: -5540275262306874139, guid: 45b87ecf73a880d4b8063927fd3fad73, type: 3}
   rejectionSound: {fileID: 0}
   acceptedSound: {fileID: 0}
   appearanceWeight: 0.2
+  characterPrefab: {fileID: 0}

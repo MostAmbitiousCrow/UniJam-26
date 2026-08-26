@@ -42,6 +42,12 @@ namespace Player
         {
             Movement();
             if (_interactInput.WasCompletedThisFrame()) OnInteract();
+            
+            // DEV
+            if (Keyboard.current.digit1Key.wasPressedThisFrame) Time.timeScale = 1f;
+            if (Keyboard.current.digit2Key.wasPressedThisFrame) Time.timeScale = 2f;
+            if (Keyboard.current.digit3Key.wasPressedThisFrame) Time.timeScale = 4f;
+            if (Keyboard.current.digit4Key.wasPressedThisFrame) Time.timeScale = 8f;
         }
 
         private void FixedUpdate()

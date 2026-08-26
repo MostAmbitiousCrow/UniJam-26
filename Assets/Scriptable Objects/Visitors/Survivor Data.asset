@@ -13,12 +13,13 @@ MonoBehaviour:
   m_Name: Survivor Data
   m_EditorClassIdentifier: Assembly-CSharp::VisitorData
   visitorType: 1
-  ears: []
-  eyes: []
-  mouths: []
-  body: []
-  neck: []
-  head: []
+  variants:
+  - {fileID: -7025669375825294637, guid: 45b87ecf73a880d4b8063927fd3fad73, type: 3}
+  - {fileID: 3860961360052111785, guid: 45b87ecf73a880d4b8063927fd3fad73, type: 3}
+  - {fileID: 8967268071904666261, guid: 45b87ecf73a880d4b8063927fd3fad73, type: 3}
+  - {fileID: -2842233713406918951, guid: 45b87ecf73a880d4b8063927fd3fad73, type: 3}
+  - {fileID: -2595261428085418239, guid: 45b87ecf73a880d4b8063927fd3fad73, type: 3}
   rejectionSound: {fileID: 0}
   acceptedSound: {fileID: 0}
   appearanceWeight: 0.3
+  characterPrefab: {fileID: 0}

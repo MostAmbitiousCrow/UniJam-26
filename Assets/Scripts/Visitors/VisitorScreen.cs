@@ -20,6 +20,7 @@ namespace Visitors
         [SerializeField] private Image background;
         [SerializeField] private Sprite doorBackground;
         [SerializeField] private Sprite windowBackground;
+        [SerializeField] private Image visitorImage;
 
         [Header("Audio")]
         [SerializeField] private AudioSource yesAudio;
@@ -62,29 +63,29 @@ namespace Visitors
 
         private void OnYes()
         {
-            if (_currentEntrance == null) return;
+            if (!_currentEntrance) return;
             Debug.Log($"{_currentEntrance.visitorData.visitorType} was Accepted");
             
             yesAudio.clip = _currentEntrance.visitorData.acceptedSound;
             yesAudio?.Play();
             
             VisitorManager.DecideVisitorChoice(_currentEntrance.visitorData.visitorType, RejectionChoice.Yes);
-            _currentEntrance.RemoveVisitor(RejectionChoice.Yes);
+            _currentEntrance.RemoveVisitor();
 
             CloseScreen();
         }
 
         private void OnNo()
         {
-            if (_currentEntrance == null) return;
+            if (!_currentEntrance) return;
              Debug.Log($"{_currentEntrance.visitorData.visitorType} was Rejected");
             
             yesAudio.clip = _currentEntrance.visitorData.rejectionSound;
+            noAudio?.Play();
             
             VisitorManager.DecideVisitorChoice(_currentEntrance.visitorData.visitorType, RejectionChoice.No);
-            _currentEntrance.RemoveVisitor(RejectionChoice.No);
-
-            noAudio?.Play();
+            _currentEntrance.RemoveVisitor();
+            
             CloseScreen();
         }
 
@@ -99,6 +100,7 @@ namespace Visitors
             
             // Update Background
             background.sprite = entrance.entranceType == EntranceType.Door? doorBackground : windowBackground;
+            visitorImage.sprite = _currentEntrance.visitorData.GetVariant();
         }
 
         private void CloseScreen()

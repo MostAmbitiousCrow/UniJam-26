@@ -21,6 +21,11 @@ namespace Managers
         
         [SerializeField, ReadOnly] private float _currentTime, _targetTime;
         private bool _doTimer;
+
+        [Header("Survivors")]
+        [SerializeField, ReadOnly] private List<Survivor> collectedSurvivors;
+        [SerializeField] private Transform[] roomPoints;
+        private List<Transform> _availableRoomPoints;
         
         private void Awake()
         {
@@ -75,12 +80,12 @@ namespace Managers
             if (_currentTime < _targetTime) return;
             
             UpdateTargetTime();
-            SpawnVisitor();
+            SpawnVisitorAtEntrance();
 
             _currentTime = 0f;
         }
 
-        private void SpawnVisitor()
+        private void SpawnVisitorAtEntrance()
         {
             // Pick Entrance
             if (_availableEntrances.Count <= 0) return;
@@ -89,6 +94,11 @@ namespace Managers
             _availableEntrances.Remove(entrance);
             
             entrance.DeliverVisitor(GetRandomVisitor());
+        }
+
+        private void SpawnVisitorInRoom()
+        {
+            
         }
         
         public void ReturnEntrance(Entrance entrance)
@@ -119,7 +129,7 @@ namespace Managers
         
         #endregion
 
-        public static void DecideVisitorChoice(VisitorType visitor, RejectionChoice choice)
+        public static void DecideVisitorChoice(VisitorType visitor, RejectionChoice choice, Entrance entrance = null)
         {
             switch (visitor)
             {
@@ -128,6 +138,7 @@ namespace Managers
                     {
                         GameManager.CurrentGameStats.VampiresAccepted++;
                         GameManager.Instance.RemoveGuard();
+                        // TODO: Spawn Vampire
                         return; //TODO: Make the Vampire eliminate 2 guards
                     }
                     else

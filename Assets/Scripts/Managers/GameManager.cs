@@ -24,9 +24,20 @@ namespace Managers
             StartGame();
         }
 
+        private void OnEnable()
+        {
+            OnGameEnded += PauseGame;
+        }
+
+        private void OnDisable()
+        {
+            OnGameEnded -= PauseGame;
+        }
+
         #region Game Flow
 
-        public static Action OnGameStarted, OnGameOver, OnGameEnded;
+        public static Action OnGameStarted, OnGameEnded;
+        public static Action<GameOverType> OnGameOver;
 
         public static void StartGame()
         {
@@ -45,11 +56,30 @@ namespace Managers
             OnGameEnded?.Invoke();
         }
         
-        public static void TriggerGameOver()
+        public static void TriggerGameOver(GameOverType type)
         {
             Debug.Log("GAME OVER WAS TRIGGERED");
             
-            OnGameOver?.Invoke();
+            OnGameOver?.Invoke(type);
+            OnGameEnded?.Invoke();
+        }
+        
+        #endregion
+        
+        #region Pausing
+
+        public static bool IsGamePaused;
+        
+        public static void PauseGame()
+        {
+            Time.timeScale = 0f;
+            IsGamePaused = true;
+        }
+
+        public static void ResumeGame()
+        {
+            Time.timeScale = 1f;
+            IsGamePaused = false;
         }
         #endregion
         
@@ -74,7 +104,7 @@ namespace Managers
         {
             if (currentGuards <= 0)
             {
-                TriggerGameOver();
+                TriggerGameOver(GameOverType.Died);
                 //TODO: Might want to change this so that the game over is triggered when the player is hit by a vampire
             }
             else
@@ -110,4 +140,9 @@ namespace Managers
         
         #endregion
     }
+}
+
+public enum GameOverType
+{
+    NightSurvived, Died
 }

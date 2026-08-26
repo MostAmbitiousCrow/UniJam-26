@@ -26,51 +26,6 @@ TextureImporter:
   - first:
       213: 6394776483818559663
     second: Civilian 1_7
-  - first:
-      213: 6324155046473314730
-    second: Civilian 1_8
-  - first:
-      213: 6855869658237027308
-    second: Civilian 1_9
-  - first:
-      213: 1855860865551650861
-    second: Civilian 1_10
-  - first:
-      213: -6963140125521450428
-    second: Civilian 1_11
-  - first:
-      213: -4084182097708616417
-    second: Civilian 1_12
-  - first:
-      213: 2306036256497357442
-    second: Civilian 1_13
-  - first:
-      213: -3474612900451149844
-    second: Civilian 1_14
-  - first:
-      213: -1427332740508060727
-    second: Civilian 1_15
-  - first:
-      213: 4140917473678570605
-    second: Civilian 1_16
-  - first:
-      213: 3206364023937882398
-    second: Civilian 1_17
-  - first:
-      213: 7625329739958765653
-    second: Civilian 1_18
-  - first:
-      213: 8356776055197024287
-    second: Civilian 1_19
-  - first:
-      213: 4899009258870421423
-    second: Civilian 1_20
-  - first:
-      213: -7261920266155307756
-    second: Civilian 1_21
-  - first:
-      213: -8357765495744598199
-    second: Civilian 1_22
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -162,6 +117,19 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -169,10 +137,10 @@ TextureImporter:
       name: Civilian 1_0
       rect:
         serializedVersion: 2
-        x: 299
-        y: 1341
-        width: 967
-        height: 1988
+        x: 323
+        y: 2334
+        width: 968
+        height: 1986
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -191,10 +159,10 @@ TextureImporter:
       name: Civilian 1_1
       rect:
         serializedVersion: 2
-        x: 1497
-        y: 2943
-        width: 968
-        height: 1005
+        x: 1673
+        y: 2352
+        width: 967
+        height: 1995
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,10 +181,10 @@ TextureImporter:
       name: Civilian 1_2
       rect:
         serializedVersion: 2
-        x: 2582
-        y: 2937
-        width: 968
-        height: 1005
+        x: 3034
+        y: 2326
+        width: 967
+        height: 2063
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,10 +203,10 @@ TextureImporter:
       name: Civilian 1_3
       rect:
         serializedVersion: 2
-        x: 3660
-        y: 2916
-        width: 968
-        height: 1005
+        x: 3982
+        y: 164
+        width: 1092
+        height: 2279
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -257,10 +225,10 @@ TextureImporter:
       name: Civilian 1_4
       rect:
         serializedVersion: 2
-        x: 5563
-        y: 3170
-        width: 733
-        height: 610
+        x: 5327
+        y: 2111
+        width: 1092
+        height: 2265
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -279,10 +247,10 @@ TextureImporter:
       name: Civilian 1_5
       rect:
         serializedVersion: 2
-        x: 6620
-        y: 2935
+        x: 6720
+        y: 2150
         width: 1092
-        height: 800
+        height: 2249
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -301,10 +269,10 @@ TextureImporter:
       name: Civilian 1_6
       rect:
         serializedVersion: 2
-        x: 1600
-        y: 2493
-        width: 158
-        height: 211
+        x: 377
+        y: 101
+        width: 968
+        height: 2075
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -323,10 +291,10 @@ TextureImporter:
       name: Civilian 1_7
       rect:
         serializedVersion: 2
-        x: 2172
-        y: 2474
-        width: 188
-        height: 198
+        x: 1698
+        y: 144
+        width: 967
+        height: 2071
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -337,336 +305,6 @@ TextureImporter:
       bones: []
       spriteID: fa8d600c45fceb850800000000000000
       internalID: 6394776483818559663
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 1_8
-      rect:
-        serializedVersion: 2
-        x: 2685
-        y: 2487
-        width: 158
-        height: 211
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: aa139890289e3c750800000000000000
-      internalID: 6324155046473314730
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 1_9
-      rect:
-        serializedVersion: 2
-        x: 3257
-        y: 2468
-        width: 187
-        height: 198
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce3c8955121f42f50800000000000000
-      internalID: 6855869658237027308
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 1_10
-      rect:
-        serializedVersion: 2
-        x: 3763
-        y: 2466
-        width: 158
-        height: 211
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d2051cbdf9751c910800000000000000
-      internalID: 1855860865551650861
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 1_11
-      rect:
-        serializedVersion: 2
-        x: 4335
-        y: 2447
-        width: 188
-        height: 198
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 44a6609b2f4fd5f90800000000000000
-      internalID: -6963140125521450428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 1_12
-      rect:
-        serializedVersion: 2
-        x: 4868
-        y: 2603
-        width: 380
-        height: 519
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f15711465021257c0800000000000000
-      internalID: -4084182097708616417
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 1_13
-      rect:
-        serializedVersion: 2
-        x: 6643
-        y: 1934
-        width: 1091
-        height: 799
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 28252b3e1cfa00020800000000000000
-      internalID: 2306036256497357442
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 1_14
-      rect:
-        serializedVersion: 2
-        x: 1471
-        y: 1362
-        width: 968
-        height: 1004
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: ce79e90f9f1b7cfc0800000000000000
-      internalID: -3474612900451149844
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 1_15
-      rect:
-        serializedVersion: 2
-        x: 2938
-        y: 989
-        width: 733
-        height: 1138
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 9c37bb15f68113ce0800000000000000
-      internalID: -1427332740508060727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 1_16
-      rect:
-        serializedVersion: 2
-        x: 4831
-        y: 1869
-        width: 381
-        height: 519
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d64b1d6b08e777930800000000000000
-      internalID: 4140917473678570605
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 1_17
-      rect:
-        serializedVersion: 2
-        x: 5456
-        y: 1888
-        width: 733
-        height: 610
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: e19d86b771b4f7c20800000000000000
-      internalID: 3206364023937882398
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 1_18
-      rect:
-        serializedVersion: 2
-        x: 1574
-        y: 911
-        width: 158
-        height: 212
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 558c67d6ffc92d960800000000000000
-      internalID: 7625329739958765653
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 1_19
-      rect:
-        serializedVersion: 2
-        x: 2146
-        y: 892
-        width: 188
-        height: 198
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: f10428dcb8b39f370800000000000000
-      internalID: 8356776055197024287
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 1_20
-      rect:
-        serializedVersion: 2
-        x: 3918
-        y: 636
-        width: 733
-        height: 1138
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: fa7325207f6ccf340800000000000000
-      internalID: 4899009258870421423
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 1_21
-      rect:
-        serializedVersion: 2
-        x: 5486
-        y: 809
-        width: 733
-        height: 611
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 41d4a944ef9783b90800000000000000
-      internalID: -7261920266155307756
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 1_22
-      rect:
-        serializedVersion: 2
-        x: 6670
-        y: 861
-        width: 1092
-        height: 800
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 94f602e1090430c80800000000000000
-      internalID: -8357765495744598199
       vertices: []
       indices: 
       edges: []
@@ -687,27 +325,12 @@ TextureImporter:
     nameFileIdTable:
       Civilian 1_0: -3393025994893495037
       Civilian 1_1: -2137500970280005976
-      Civilian 1_10: 1855860865551650861
-      Civilian 1_11: -6963140125521450428
-      Civilian 1_12: -4084182097708616417
-      Civilian 1_13: 2306036256497357442
-      Civilian 1_14: -3474612900451149844
-      Civilian 1_15: -1427332740508060727
-      Civilian 1_16: 4140917473678570605
-      Civilian 1_17: 3206364023937882398
-      Civilian 1_18: 7625329739958765653
-      Civilian 1_19: 8356776055197024287
       Civilian 1_2: 9047019921961021560
-      Civilian 1_20: 4899009258870421423
-      Civilian 1_21: -7261920266155307756
-      Civilian 1_22: -8357765495744598199
       Civilian 1_3: 2304921791697510449
       Civilian 1_4: -4002518924341792397
       Civilian 1_5: -7675199821387851079
       Civilian 1_6: -3514039505976979535
       Civilian 1_7: 6394776483818559663
-      Civilian 1_8: 6324155046473314730
-      Civilian 1_9: 6855869658237027308
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

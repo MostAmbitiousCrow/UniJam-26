@@ -1,6 +1,7 @@
 using System;
 using EditorAttributes;
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 namespace Managers
 {
@@ -15,6 +16,15 @@ namespace Managers
 
         public float NormalisedTime => Mathf.Clamp01(currentGameTime / (targetGameTime * 60f));
         public bool IsSunRise => currentGameTime <= 0f;
+        
+        [Header("Visuals")]
+        [SerializeField] private Light globalLight;
+        [SerializeField] private AnimationCurve globalLightIntensity, globalLightRotation;
+
+        private void Start()
+        {
+            UpdateGlobalLight();
+        }
 
         private void OnEnable()
         {
@@ -27,7 +37,11 @@ namespace Managers
 
         private void FixedUpdate()
         {
-            if (doCountDown) CountTimer();
+            if (doCountDown)
+            {
+                CountTimer();
+                UpdateGlobalLight();
+            }
         }
 
         private void StartTimer()
@@ -38,12 +52,18 @@ namespace Managers
 
         private void CountTimer()
         {
-            currentGameTime -= Time.fixedDeltaTime;
+            currentGameTime += Time.fixedDeltaTime;
 
-            if (currentGameTime <= 0f)
+            if (currentGameTime >= targetGameTime * 60f)
             {
                 OnSunRisen();
             }
+        }
+
+        private void UpdateGlobalLight()
+        {
+            globalLight.intensity = globalLightIntensity.Evaluate(NormalisedTime);
+            globalLight.transform.rotation = Quaternion.Euler(globalLightRotation.Evaluate(NormalisedTime), 0f, 0f);
         }
 
         private void OnSunRisen()

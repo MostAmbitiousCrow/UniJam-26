@@ -1,43 +1,37 @@
 fileFormatVersion: 2
-guid: 54f7e5a5eeb90e34cb982e29976f0ed4
+guid: 45b87ecf73a880d4b8063927fd3fad73
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2482869020068172220
-    second: Civilian 3_0
+      213: -7025669375825294637
+    second: Civilian 4_0
   - first:
-      213: 1891094638776680331
-    second: Civilian 3_1
+      213: 3860961360052111785
+    second: Civilian 4_1
   - first:
-      213: 6962590400202297172
-    second: Civilian 3_2
+      213: 8967268071904666261
+    second: Civilian 4_2
   - first:
-      213: -8934825517786170394
-    second: Civilian 3_3
+      213: -2842233713406918951
+    second: Civilian 4_3
   - first:
-      213: 8731972719602593241
-    second: Civilian 3_4
+      213: -2595261428085418239
+    second: Civilian 4_4
   - first:
-      213: 9020857056265281001
-    second: Civilian 3_5
+      213: 434426916058278039
+    second: Civilian 4_5
   - first:
-      213: 2318171042212693492
-    second: Civilian 3_6
+      213: -5671482075367619119
+    second: Civilian 4_6
   - first:
-      213: -8342548055349155464
-    second: Civilian 3_7
+      213: 2237087575672268337
+    second: Civilian 4_7
   - first:
-      213: -3607743025345827569
-    second: Civilian 3_8
+      213: 7297920656185577335
+    second: Civilian 4_8
   - first:
-      213: -2541565978944279621
-    second: Civilian 3_9
-  - first:
-      213: -311600266306568523
-    second: Civilian 3_10
-  - first:
-      213: -1669587846841110943
-    second: Civilian 3_11
+      213: -5540275262306874139
+    second: Civilian 4_9
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -86,7 +80,7 @@ TextureImporter:
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 1024
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spriteGenerateFallbackPhysicsShape: 0
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
@@ -146,265 +140,221 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Civilian 3_0
+      name: Civilian 4_0
       rect:
         serializedVersion: 2
-        x: 302
-        y: 2542
-        width: 977
-        height: 1765
+        x: 322
+        y: 2306
+        width: 943
+        height: 1784
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cb15cfc083ce47220800000000000000
-      internalID: 2482869020068172220
+      spriteID: 3dac7902deecf7e90800000000000000
+      internalID: -7025669375825294637
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Civilian 3_1
+      name: Civilian 4_1
       rect:
         serializedVersion: 2
-        x: 1622
-        y: 2528
-        width: 976
-        height: 1787
+        x: 1767
+        y: 2259
+        width: 944
+        height: 1762
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8ffde4fd848e3a10800000000000000
-      internalID: 1891094638776680331
+      spriteID: 9a94a6596e3e49530800000000000000
+      internalID: 3860961360052111785
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Civilian 3_2
+      name: Civilian 4_2
       rect:
         serializedVersion: 2
-        x: 2860
-        y: 2539
-        width: 976
-        height: 1792
+        x: 3245
+        y: 2306
+        width: 943
+        height: 1758
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 45f4a90641710a060800000000000000
-      internalID: 6962590400202297172
+      spriteID: 592649ffcc2227c70800000000000000
+      internalID: 8967268071904666261
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Civilian 3_3
+      name: Civilian 4_3
       rect:
         serializedVersion: 2
-        x: 4198
-        y: 2549
-        width: 976
-        height: 1797
+        x: 4767
+        y: 2262
+        width: 944
+        height: 1784
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6eb7242c78f110480800000000000000
-      internalID: -8934825517786170394
+      spriteID: 9debdb71f7b5e88d0800000000000000
+      internalID: -2842233713406918951
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Civilian 3_4
+      name: Civilian 4_4
       rect:
         serializedVersion: 2
-        x: 5600
-        y: 2508
-        width: 977
-        height: 1795
+        x: 6356
+        y: 2255
+        width: 943
+        height: 1784
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9dd605cace23e2970800000000000000
-      internalID: 8731972719602593241
+      spriteID: 10712bf3b77cbfbd0800000000000000
+      internalID: -2595261428085418239
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Civilian 3_5
+      name: Civilian 4_5_Vampire
       rect:
         serializedVersion: 2
-        x: 6825
-        y: 2482
-        width: 976
-        height: 1783
+        x: 303
+        y: 187
+        width: 944
+        height: 1777
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 9ed9448b2b5803d70800000000000000
-      internalID: 9020857056265281001
+      spriteID: 798a58c7af4670600800000000000000
+      internalID: 434426916058278039
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Civilian 3_6
+      name: Civilian 4_6_Vampire
       rect:
         serializedVersion: 2
-        x: 385
-        y: 380
-        width: 941
-        height: 1676
+        x: 1897
+        y: 170
+        width: 943
+        height: 1780
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4f54fabd74ccb2020800000000000000
-      internalID: 2318171042212693492
+      spriteID: 1d5c7bbe919da41b0800000000000000
+      internalID: -5671482075367619119
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Civilian 3_7
+      name: Civilian 4_7_Vampire
       rect:
         serializedVersion: 2
-        x: 1705
-        y: 368
-        width: 941
-        height: 1672
+        x: 3392
+        y: 180
+        width: 944
+        height: 1853
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 879a94f8eb0593c80800000000000000
-      internalID: -8342548055349155464
+      spriteID: 136a2672c4bbb0f10800000000000000
+      internalID: 2237087575672268337
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Civilian 3_8
+      name: Civilian 4_8_Vampire
       rect:
         serializedVersion: 2
-        x: 2984
-        y: 389
-        width: 942
-        height: 1683
+        x: 4905
+        y: 187
+        width: 944
+        height: 1777
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f0d6e5545d8beedc0800000000000000
-      internalID: -3607743025345827569
+      spriteID: 77f4de6bb2c674560800000000000000
+      internalID: 7297920656185577335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Civilian 3_9
+      name: Civilian 4_9_Vampire
       rect:
         serializedVersion: 2
-        x: 4232
-        y: 409
-        width: 941
-        height: 1677
+        x: 6367
+        y: 163
+        width: 944
+        height: 1853
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bbbeecb353b8abcd0800000000000000
-      internalID: -2541565978944279621
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 3_10
-      rect:
-        serializedVersion: 2
-        x: 5696
-        y: 425
-        width: 942
-        height: 1673
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 5be31ee6539fcabf0800000000000000
-      internalID: -311600266306568523
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Civilian 3_11
-      rect:
-        serializedVersion: 2
-        x: 6869
-        y: 449
-        width: 950
-        height: 1659
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 16ee9bbf2be64d8e0800000000000000
-      internalID: -1669587846841110943
+      spriteID: 5ec8058a00dfc13b0800000000000000
+      internalID: -5540275262306874139
       vertices: []
       indices: 
       edges: []
@@ -413,7 +363,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 891b0966b41808d438c628041d837d95
     internalID: 0
     vertices: []
     indices: 
@@ -423,18 +373,16 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Civilian 3_0: 2482869020068172220
-      Civilian 3_1: 1891094638776680331
-      Civilian 3_10: -311600266306568523
-      Civilian 3_11: -1669587846841110943
-      Civilian 3_2: 6962590400202297172
-      Civilian 3_3: -8934825517786170394
-      Civilian 3_4: 8731972719602593241
-      Civilian 3_5: 9020857056265281001
-      Civilian 3_6: 2318171042212693492
-      Civilian 3_7: -8342548055349155464
-      Civilian 3_8: -3607743025345827569
-      Civilian 3_9: -2541565978944279621
+      Civilian 4_0: -7025669375825294637
+      Civilian 4_1: 3860961360052111785
+      Civilian 4_2: 8967268071904666261
+      Civilian 4_3: -2842233713406918951
+      Civilian 4_4: -2595261428085418239
+      Civilian 4_5_Vampire: 434426916058278039
+      Civilian 4_6_Vampire: -5671482075367619119
+      Civilian 4_7_Vampire: 2237087575672268337
+      Civilian 4_8_Vampire: 7297920656185577335
+      Civilian 4_9_Vampire: -5540275262306874139
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
