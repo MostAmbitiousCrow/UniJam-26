@@ -1,0 +1,975 @@
+fileFormatVersion: 2
+guid: cb0379f332ea3a14ebb04aaacc061be3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 292360842615507566
+    second: Door bottom layer_0
+  - first:
+      213: 129837585049652781
+    second: Door bottom layer_1
+  - first:
+      213: -7285867151341251798
+    second: Door bottom layer_2
+  - first:
+      213: 3770879867972043886
+    second: Door bottom layer_3
+  - first:
+      213: -8285515849806754983
+    second: Door bottom layer_4
+  - first:
+      213: -8476279197112223949
+    second: Door bottom layer_5
+  - first:
+      213: -1307161603083022673
+    second: Door bottom layer_6
+  - first:
+      213: -3273602516459342646
+    second: Door bottom layer_7
+  - first:
+      213: -2642449492674901956
+    second: Door bottom layer_8
+  - first:
+      213: 1138101081184268873
+    second: Door bottom layer_9
+  - first:
+      213: 3016465866256905199
+    second: Door bottom layer_10
+  - first:
+      213: -6342200211098705759
+    second: Door bottom layer_11
+  - first:
+      213: 650595845911674317
+    second: Door bottom layer_12
+  - first:
+      213: 3583150487784594332
+    second: Door bottom layer_13
+  - first:
+      213: -8957595605477330635
+    second: Door bottom layer_14
+  - first:
+      213: 5696347111892442991
+    second: Door bottom layer_15
+  - first:
+      213: -5905298677640620227
+    second: Door bottom layer_16
+  - first:
+      213: -8479555409234088254
+    second: Door bottom layer_17
+  - first:
+      213: -6020873453057435186
+    second: Door bottom layer_18
+  - first:
+      213: 7800451548468467199
+    second: Door bottom layer_19
+  - first:
+      213: -1987973602225645565
+    second: Door bottom layer_20
+  - first:
+      213: 6735118353994289334
+    second: Door bottom layer_21
+  - first:
+      213: -5815622898792060690
+    second: Door bottom layer_22
+  - first:
+      213: 812221127052405067
+    second: Door bottom layer_23
+  - first:
+      213: 4006879177169331677
+    second: Door bottom layer_24
+  - first:
+      213: -2503655611372756557
+    second: Door bottom layer_25
+  - first:
+      213: 7231454281687391376
+    second: Door bottom layer_26
+  - first:
+      213: -5544475844390277687
+    second: Door bottom layer_27
+  - first:
+      213: -7709535472509636182
+    second: Door bottom layer_28
+  - first:
+      213: -3767199853602531540
+    second: Door bottom layer_29
+  - first:
+      213: -3329816260001463631
+    second: Door bottom layer_30
+  - first:
+      213: 8655539841339879940
+    second: Door bottom layer_31
+  - first:
+      213: -3924604376558113045
+    second: Door bottom layer_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Door bottom layer_0
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 53
+        width: 1374
+        height: 1274
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ac45a23acae0400800000000000000
+      internalID: 292360842615507566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_1
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 1326
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2e016f78964dc100800000000000000
+      internalID: 129837585049652781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_2
+      rect:
+        serializedVersion: 2
+        x: 2124
+        y: 1327
+        width: 26
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a231e939d6663ea90800000000000000
+      internalID: -7285867151341251798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_3
+      rect:
+        serializedVersion: 2
+        x: 2359
+        y: 1120
+        width: 20
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e64452dc24bd45430800000000000000
+      internalID: 3770879867972043886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_4
+      rect:
+        serializedVersion: 2
+        x: 2446
+        y: 944
+        width: 114
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b466fab3fe30d80800000000000000
+      internalID: -8285515849806754983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_5
+      rect:
+        serializedVersion: 2
+        x: 2456
+        y: 1056
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 337b71fbaf43e5a80800000000000000
+      internalID: -8476279197112223949
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_6
+      rect:
+        serializedVersion: 2
+        x: 2326
+        y: 977
+        width: 49
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faec43892770cdde0800000000000000
+      internalID: -1307161603083022673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_7
+      rect:
+        serializedVersion: 2
+        x: 2357
+        y: 936
+        width: 16
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac4bd960bd3d192d0800000000000000
+      internalID: -3273602516459342646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_8
+      rect:
+        serializedVersion: 2
+        x: 2432
+        y: 955
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38833ccf22245bd0800000000000000
+      internalID: -2642449492674901956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_9
+      rect:
+        serializedVersion: 2
+        x: 2353
+        y: 672
+        width: 138
+        height: 272
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 942f97647e85bcf00800000000000000
+      internalID: 1138101081184268873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_10
+      rect:
+        serializedVersion: 2
+        x: 2390
+        y: 471
+        width: 78
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe3755339b3acd920800000000000000
+      internalID: 3016465866256905199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_11
+      rect:
+        serializedVersion: 2
+        x: 2447
+        y: 449
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a0ed0ba28afbf7a0800000000000000
+      internalID: -6342200211098705759
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_12
+      rect:
+        serializedVersion: 2
+        x: 2377
+        y: 398
+        width: 19
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcdf8ef8971670900800000000000000
+      internalID: 650595845911674317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_13
+      rect:
+        serializedVersion: 2
+        x: 2429
+        y: 427
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b1b216268e9b130800000000000000
+      internalID: 3583150487784594332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_14
+      rect:
+        serializedVersion: 2
+        x: 2362
+        y: 359
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5317ce5914a30b380800000000000000
+      internalID: -8957595605477330635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_15
+      rect:
+        serializedVersion: 2
+        x: 2334
+        y: 316
+        width: 28
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6fdba9848d7d0f40800000000000000
+      internalID: 5696347111892442991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_16
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 161
+        width: 23
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3795aae32a2c0ea0800000000000000
+      internalID: -5905298677640620227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_17
+      rect:
+        serializedVersion: 2
+        x: 1988
+        y: 166
+        width: 29
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ce2c5b2841925a80800000000000000
+      internalID: -8479555409234088254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_18
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 140
+        width: 27
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec99ee09e7f817ca0800000000000000
+      internalID: -6020873453057435186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_19
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 164
+        width: 15
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff5db12da55c04c60800000000000000
+      internalID: 7800451548468467199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_20
+      rect:
+        serializedVersion: 2
+        x: 2058
+        y: 157
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3089c70aa8c4964e0800000000000000
+      internalID: -1987973602225645565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_21
+      rect:
+        serializedVersion: 2
+        x: 2065
+        y: 157
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b01b027572f77d50800000000000000
+      internalID: 6735118353994289334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_22
+      rect:
+        serializedVersion: 2
+        x: 2072
+        y: 161
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee82fd939c1ca4fa0800000000000000
+      internalID: -5815622898792060690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_23
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 154
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49a60dcfc6954b00800000000000000
+      internalID: 812221127052405067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_24
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 104
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd5661dd16b4b9730800000000000000
+      internalID: 4006879177169331677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_25
+      rect:
+        serializedVersion: 2
+        x: 1613
+        y: 69
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b1a6348c7a314dd0800000000000000
+      internalID: -2503655611372756557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_26
+      rect:
+        serializedVersion: 2
+        x: 1622
+        y: 77
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09c5475fa594b5460800000000000000
+      internalID: 7231454281687391376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_27
+      rect:
+        serializedVersion: 2
+        x: 1682
+        y: 1
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9cd226d68901e03b0800000000000000
+      internalID: -5544475844390277687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_28
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 0
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa13ac9a55a320590800000000000000
+      internalID: -7709535472509636182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_29
+      rect:
+        serializedVersion: 2
+        x: 1706
+        y: 0
+        width: 14
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c271e1051b738bbc0800000000000000
+      internalID: -3767199853602531540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_30
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 0
+        width: 13
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b20b4fe0cd1ac1d0800000000000000
+      internalID: -3329816260001463631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_31
+      rect:
+        serializedVersion: 2
+        x: 1735
+        y: 0
+        width: 12
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 402fd4e60a7ae1870800000000000000
+      internalID: 8655539841339879940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door bottom layer_32
+      rect:
+        serializedVersion: 2
+        x: 1749
+        y: 0
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bee6f4bec110989c0800000000000000
+      internalID: -3924604376558113045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Door bottom layer_0: 292360842615507566
+      Door bottom layer_1: 129837585049652781
+      Door bottom layer_10: 3016465866256905199
+      Door bottom layer_11: -6342200211098705759
+      Door bottom layer_12: 650595845911674317
+      Door bottom layer_13: 3583150487784594332
+      Door bottom layer_14: -8957595605477330635
+      Door bottom layer_15: 5696347111892442991
+      Door bottom layer_16: -5905298677640620227
+      Door bottom layer_17: -8479555409234088254
+      Door bottom layer_18: -6020873453057435186
+      Door bottom layer_19: 7800451548468467199
+      Door bottom layer_2: -7285867151341251798
+      Door bottom layer_20: -1987973602225645565
+      Door bottom layer_21: 6735118353994289334
+      Door bottom layer_22: -5815622898792060690
+      Door bottom layer_23: 812221127052405067
+      Door bottom layer_24: 4006879177169331677
+      Door bottom layer_25: -2503655611372756557
+      Door bottom layer_26: 7231454281687391376
+      Door bottom layer_27: -5544475844390277687
+      Door bottom layer_28: -7709535472509636182
+      Door bottom layer_29: -3767199853602531540
+      Door bottom layer_3: 3770879867972043886
+      Door bottom layer_30: -3329816260001463631
+      Door bottom layer_31: 8655539841339879940
+      Door bottom layer_32: -3924604376558113045
+      Door bottom layer_4: -8285515849806754983
+      Door bottom layer_5: -8476279197112223949
+      Door bottom layer_6: -1307161603083022673
+      Door bottom layer_7: -3273602516459342646
+      Door bottom layer_8: -2642449492674901956
+      Door bottom layer_9: 1138101081184268873
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

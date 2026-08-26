@@ -41,7 +41,7 @@ namespace Managers
 
         public static void StartGame()
         {
-            Debug.Log("GAME ENDED");
+            Debug.Log("GAME STARTED");
             
             OnGameStarted?.Invoke();
             

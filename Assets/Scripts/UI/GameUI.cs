@@ -93,18 +93,19 @@ namespace UI
             
             // Do Slide Animation
 
-            float delay = 0f;
+            /*float delay = .15f;
             foreach (var result in resultsText)
             {
                 var parent = result.rectTransform.parent.GetComponent<RectTransform>();
-                parent.localPosition -= new Vector3(1000f, 0f, 0f);
+                parent.localPosition += new Vector3(1000f, 0f, 0f);
+                
                 var tween = parent.DOLocalMoveX
-                    (1000f, 1.25f);
+                    (parent.localPosition.x - 1000f, 1.25f);
                 tween.SetEase(Ease.InExpo);
                 tween.SetDelay(delay);
                 
                 delay += .15f;
-            }
+            }*/
         }
 
         #endregion

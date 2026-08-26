@@ -14,11 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::VisitorData
   visitorType: 0
   variants:
-  - {fileID: 434426916058278039, guid: 45b87ecf73a880d4b8063927fd3fad73, type: 3}
-  - {fileID: -5671482075367619119, guid: 45b87ecf73a880d4b8063927fd3fad73, type: 3}
-  - {fileID: 2237087575672268337, guid: 45b87ecf73a880d4b8063927fd3fad73, type: 3}
-  - {fileID: 7297920656185577335, guid: 45b87ecf73a880d4b8063927fd3fad73, type: 3}
-  - {fileID: -5540275262306874139, guid: 45b87ecf73a880d4b8063927fd3fad73, type: 3}
+  - {fileID: -8667535694477764701, guid: 8205c4ca45f30b5498a6cf5fc4632bab, type: 3}
   rejectionSound: {fileID: 0}
   acceptedSound: {fileID: 0}
   appearanceWeight: 0.5

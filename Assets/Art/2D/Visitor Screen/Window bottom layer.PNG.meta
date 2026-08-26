@@ -1,0 +1,455 @@
+fileFormatVersion: 2
+guid: 6f137cff5a5d11a40954730f5a71425e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3685177465442757308
+    second: Window bottom layer_0
+  - first:
+      213: 8432468765356506317
+    second: Window bottom layer_1
+  - first:
+      213: 5288942167975774931
+    second: Window bottom layer_2
+  - first:
+      213: 2336409885372172973
+    second: Window bottom layer_3
+  - first:
+      213: -2969499011409300433
+    second: Window bottom layer_4
+  - first:
+      213: 2281320429748873668
+    second: Window bottom layer_5
+  - first:
+      213: 8092118842593373123
+    second: Window bottom layer_6
+  - first:
+      213: 7880804579802524099
+    second: Window bottom layer_7
+  - first:
+      213: -3277282655980615894
+    second: Window bottom layer_8
+  - first:
+      213: -5683426211191867775
+    second: Window bottom layer_9
+  - first:
+      213: 3872734116272322701
+    second: Window bottom layer_10
+  - first:
+      213: 7738545332025992289
+    second: Window bottom layer_11
+  - first:
+      213: -1969058274228662021
+    second: Window bottom layer_12
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Window bottom layer_0
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 0
+        width: 1733
+        height: 1440
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cba6df14161642330800000000000000
+      internalID: 3685177465442757308
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window bottom layer_1
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 637
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccb6aa3aa5260570800000000000000
+      internalID: 8432468765356506317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window bottom layer_2
+      rect:
+        serializedVersion: 2
+        x: 2415
+        y: 622
+        width: 13
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3dac7c731e8166940800000000000000
+      internalID: 5288942167975774931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window bottom layer_3
+      rect:
+        serializedVersion: 2
+        x: 2408
+        y: 585
+        width: 12
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daac15379689c6020800000000000000
+      internalID: 2336409885372172973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window bottom layer_4
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 504
+        width: 10
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f243318d1683ac6d0800000000000000
+      internalID: -2969499011409300433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window bottom layer_5
+      rect:
+        serializedVersion: 2
+        x: 856
+        y: 466
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c9e50a08d0e8af10800000000000000
+      internalID: 2281320429748873668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window bottom layer_6
+      rect:
+        serializedVersion: 2
+        x: 2288
+        y: 469
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbe505a63bfc4070800000000000000
+      internalID: 8092118842593373123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window bottom layer_7
+      rect:
+        serializedVersion: 2
+        x: 2338
+        y: 465
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c9a663d20e3e5d60800000000000000
+      internalID: 7880804579802524099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window bottom layer_8
+      rect:
+        serializedVersion: 2
+        x: 2289
+        y: 439
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a270ab5c9c0c482d0800000000000000
+      internalID: -3277282655980615894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window bottom layer_9
+      rect:
+        serializedVersion: 2
+        x: 2309
+        y: 440
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 186b3c619f96021b0800000000000000
+      internalID: -5683426211191867775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window bottom layer_10
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 379
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d88b2fdf827beb530800000000000000
+      internalID: 3872734116272322701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window bottom layer_11
+      rect:
+        serializedVersion: 2
+        x: 929
+        y: 371
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 164aaa99af5d46b60800000000000000
+      internalID: 7738545332025992289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window bottom layer_12
+      rect:
+        serializedVersion: 2
+        x: 976
+        y: 308
+        width: 181
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf09e8e9eef7ca4e0800000000000000
+      internalID: -1969058274228662021
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Window bottom layer_0: 3685177465442757308
+      Window bottom layer_1: 8432468765356506317
+      Window bottom layer_10: 3872734116272322701
+      Window bottom layer_11: 7738545332025992289
+      Window bottom layer_12: -1969058274228662021
+      Window bottom layer_2: 5288942167975774931
+      Window bottom layer_3: 2336409885372172973
+      Window bottom layer_4: -2969499011409300433
+      Window bottom layer_5: 2281320429748873668
+      Window bottom layer_6: 8092118842593373123
+      Window bottom layer_7: 7880804579802524099
+      Window bottom layer_8: -3277282655980615894
+      Window bottom layer_9: -5683426211191867775
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

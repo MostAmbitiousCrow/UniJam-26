@@ -1,7 +1,5 @@
-using System;
 using EditorAttributes;
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 namespace Managers
 {
@@ -15,7 +13,7 @@ namespace Managers
         public bool doCountDown;
 
         public float NormalisedTime => Mathf.Clamp01(currentGameTime / (targetGameTime * 60f));
-        public bool IsSunRise => currentGameTime <= 0f;
+        public bool IsSunRise => currentGameTime >= targetGameTime * 60f;
         
         [Header("Visuals")]
         [SerializeField] private Light globalLight;
@@ -47,14 +45,14 @@ namespace Managers
         private void StartTimer()
         {
             doCountDown = true;
-            currentGameTime = targetGameTime * 60f;
+            currentGameTime = 0f;
         }
 
         private void CountTimer()
         {
             currentGameTime += Time.fixedDeltaTime;
 
-            if (currentGameTime >= targetGameTime * 60f)
+            if (IsSunRise)
             {
                 OnSunRisen();
             }
@@ -71,7 +69,7 @@ namespace Managers
             currentGameTime = 0f;
             doCountDown = false;
             
-            GameManager.EndGame();
+            GameManager.TriggerGameOver(GameOverType.NightSurvived);
         }
     }
 }
