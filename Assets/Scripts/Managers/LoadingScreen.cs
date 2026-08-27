@@ -37,16 +37,7 @@ namespace Managers
         {
             if (IsLoading) return;
             IsLoading = true;
-            var scene = SceneManager.GetSceneByName(sceneName);
-            StartCoroutine(LoadSceneRoutine(scene));
-        }
-
-        public void LoadScene(int sceneIndex)
-        {
-            if (IsLoading) return;
-            IsLoading = true;
-            var scene = SceneManager.GetSceneByBuildIndex(sceneIndex);
-            StartCoroutine(LoadSceneRoutine(scene));
+            StartCoroutine(LoadSceneRoutine(sceneName));
         }
 
         private void OnSceneLoaded()
@@ -55,12 +46,12 @@ namespace Managers
             Debug.Log("Loaded scene: " + SceneManager.GetActiveScene().name);
         }
 
-        private IEnumerator LoadSceneRoutine(Scene scene)
+        private IEnumerator LoadSceneRoutine(string scene)
         {
-            Debug.Log("Loading scene: " + scene.name);
+            Debug.Log("Loading scene: " + scene);
             yield return FadeOut();
 
-            var operation = SceneManager.LoadSceneAsync(scene.buildIndex);
+            var operation = SceneManager.LoadSceneAsync(scene);
 
             while (operation is not { isDone: true })
                 yield return null;

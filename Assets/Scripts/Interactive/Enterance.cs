@@ -116,10 +116,10 @@ namespace Triggerable
         {
             // The Survivor waited too long as was killed
             if (visitorData.visitorType == VisitorType.Survivor) 
-                VisitorManager.Instance.DecideVisitorChoice(visitorData.visitorType, RejectionChoice.No);
+                VisitorManager.Instance.DecideVisitorChoice(visitorData, RejectionChoice.No);
             
             // The Vampire/Imposter was able to enter the house after not being rejected
-            else VisitorManager.Instance.DecideVisitorChoice(visitorData.visitorType, RejectionChoice.Yes);
+            else VisitorManager.Instance.DecideVisitorChoice(visitorData, RejectionChoice.Yes);
             
             RemoveVisitor();
         }

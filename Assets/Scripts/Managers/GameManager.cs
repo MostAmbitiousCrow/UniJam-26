@@ -42,6 +42,7 @@ namespace Managers
         public static void StartGame()
         {
             Debug.Log("GAME STARTED");
+            ResumeGame();
             
             OnGameStarted?.Invoke();
             
@@ -99,19 +100,20 @@ namespace Managers
             }
             OnSurvivorsUpdated?.Invoke();
         }
-
+        
         public void RemoveGuard()
         {
             if (currentGuards <= 0)
             {
-                TriggerGameOver(GameOverType.Died);
+                // TriggerGameOver(GameOverType.Died);
                 //TODO: Might want to change this so that the game over is triggered when the player is hit by a vampire
             }
             else
             {
                 currentGuards--;
-                OnSurvivorsUpdated?.Invoke();
             }
+
+            OnSurvivorsUpdated?.Invoke();
         }
         
         public static GameStats CurrentGameStats = new GameStats();

@@ -1,12 +1,15 @@
 using System.Linq;
 using EditorAttributes;
+using Managers;
 using Triggerable;
+using Unity.Cinemachine;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.Serialization;
 
 namespace Player
 {
-    public class PlayerController : MonoBehaviour
+    public class PlayerController : Character
     {
         private static readonly int MoveYBlend = Animator.StringToHash("MoveYBlend");
         private static readonly int MoveXBlend = Animator.StringToHash("MoveXBlend");
@@ -25,6 +28,7 @@ namespace Player
         [Header("Components")]
         [SerializeField] private Animator animator;
         [SerializeField] private Rigidbody rb;
+        [SerializeField] private CinemachineCamera cinemachine;
         
         private InputAction _moveInput, _interactInput;
         private Vector2 _moveAxis;
@@ -43,7 +47,6 @@ namespace Player
 
         private void Update()
         {
-            Movement();
             if (_interactInput.WasCompletedThisFrame()) OnInteract();
             
             // DEV
@@ -56,6 +59,13 @@ namespace Player
         private void FixedUpdate()
         {
             DetectEnterances();
+            if (isBeingGrabbed)
+            {
+                rb.linearVelocity = Vector3.zero;
+                return;
+            }
+            
+            Movement();
         }
 
         private void Movement()
@@ -98,6 +108,19 @@ namespace Player
         private void OnSurvivorSaved()
         {
             
+        }
+
+        public override void OnGrabbed()
+        {
+            base.OnGrabbed();
+            cinemachine.Follow = null;
+        }
+
+        public override void OnStolen()
+        {
+            base.OnStolen();
+            
+            GameManager.TriggerGameOver(GameOverType.Died);
         }
 
         private void OnDrawGizmos()

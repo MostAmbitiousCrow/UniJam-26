@@ -36,5 +36,7 @@ MonoBehaviour:
   - {fileID: 6591860601089242225, guid: aa404342a47a3a348ba0c271e2f869e1, type: 3}
   rejectionSound: {fileID: 0}
   acceptedSound: {fileID: 0}
+  roomEnteredSound: {fileID: 0}
+  roomExitedSound: {fileID: 0}
   appearanceWeight: 0.2
-  characterPrefab: {fileID: 0}
+  characterPrefab: {fileID: 2729993894754116674, guid: 8ec279fe641078c4aaef55ceb8c88f94, type: 3}

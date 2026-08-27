@@ -1,5 +1,36 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!1 &608457197106073478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4808232751551951210}
+  m_Layer: 0
+  m_Name: Grab Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4808232751551951210
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 608457197106073478}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.25, z: -0.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6679298993312108940}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1881309459293809321
 GameObject:
   m_ObjectHideFlags: 0
@@ -4935,12 +4966,16 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 1344137816782339833, guid: 9e4f5c76594f4264cac28d18a480c3b2, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2435659367408400917, guid: 8205c4ca45f30b5498a6cf5fc4632bab, type: 3}
+    - target: {fileID: 1344137816782339833, guid: 9e4f5c76594f4264cac28d18a480c3b2, type: 3}
       propertyPath: m_Color.b
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1344137816782339833, guid: 9e4f5c76594f4264cac28d18a480c3b2, type: 3}
       propertyPath: m_Color.g
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1344137816782339833, guid: 9e4f5c76594f4264cac28d18a480c3b2, type: 3}
       propertyPath: m_Color.r
@@ -5002,12 +5037,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 5222562762308152200, guid: 9e4f5c76594f4264cac28d18a480c3b2, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: 4937905354213478143, guid: 9e4f5c76594f4264cac28d18a480c3b2, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2789352105281136004}
+    - targetCorrespondingSourceObject: {fileID: 4937905354213478143, guid: 9e4f5c76594f4264cac28d18a480c3b2, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 4808232751551951210}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 4455668829704895281, guid: 9e4f5c76594f4264cac28d18a480c3b2, type: 3}
       insertIndex: -1
@@ -5033,10 +5072,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c0444a882607d04ea2f170872370499, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Characters.VampireController
-  targetSurvivor: {fileID: 0}
   agent: {fileID: 8130509059178158952}
+  stoppingDistance: 1
+  grabPoint: {fileID: 4808232751551951210}
+  grabDuration: 0.35
   carryHeight: 10
+  liftDuration: 2.5
+  liftDelay: 0.25
   transformParticles: {fileID: 6726403611607632402}
+  target: {fileID: 0}
+  isStealing: 0
 --- !u!195 &8130509059178158952
 NavMeshAgent:
   m_ObjectHideFlags: 0

@@ -26,7 +26,7 @@ Transform:
   m_GameObject: {fileID: 2562262928283318267}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0.9, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -81,7 +81,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 6995924720193866278, guid: 2356e9daadb656842886f7b321f870aa, type: 3}
   m_Color: {r: 1, g: 0.8675042, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -119,7 +119,7 @@ Transform:
   m_GameObject: {fileID: 3129614293282775563}
   serializedVersion: 2
   m_LocalRotation: {x: 0.7071068, y: -0, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: 1.5, z: 0}
+  m_LocalPosition: {x: 0, y: 1.5, z: -0.1}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -138,7 +138,7 @@ Light:
   m_Color: {r: 0.8396226, g: 0.4481861, b: 0.122774996, a: 1}
   m_Intensity: 6
   m_Range: 3
-  m_SpotAngle: 60
+  m_SpotAngle: 59.999985
   m_InnerSpotAngle: 0
   m_CookieSize2D: {x: 0.5, y: 0.5}
   m_Shadows:
@@ -228,6 +228,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4937905354213478143}
+  - component: {fileID: 6343412301399526231}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -252,6 +253,19 @@ Transform:
   - {fileID: 4394437167160389673}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6343412301399526231
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4455668829704895281}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8e0b1490d72c8541b06b4e3eef0f07e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Character
+  spriteRenderer: {fileID: 1344137816782339833}
 --- !u!1 &7655047257975479300
 GameObject:
   m_ObjectHideFlags: 0
