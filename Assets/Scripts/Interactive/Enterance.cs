@@ -23,6 +23,9 @@ namespace Triggerable
         [SerializeField] private float patienceTime = 20f;
         [SerializeField] private float patienceAlert = 5f;
         private Coroutine _patienceRoutine;
+        [Space]
+        [SerializeField] public Transform entrancePoint;
+        public Transform EntrancePoint => entrancePoint;
         
         [Header("Audio")]
         [SerializeField] private AudioSource triggerSound;
@@ -109,10 +112,10 @@ namespace Triggerable
         {
             // The Survivor waited too long as was killed
             if (visitorData.visitorType == VisitorType.Survivor) 
-                VisitorManager.DecideVisitorChoice(visitorData.visitorType, RejectionChoice.No);
+                VisitorManager.Instance.DecideVisitorChoice(visitorData.visitorType, RejectionChoice.No);
             
             // The Vampire/Imposter was able to enter the house after not being rejected
-            else VisitorManager.DecideVisitorChoice(visitorData.visitorType, RejectionChoice.Yes);
+            else VisitorManager.Instance.DecideVisitorChoice(visitorData.visitorType, RejectionChoice.Yes);
             
             RemoveVisitor();
         }
@@ -137,10 +140,21 @@ namespace Triggerable
         }
         #endregion
 
+        #if UNITY_EDITOR
         private void OnValidate()
         {
             name = $"Entrance Point ({entranceType})";
         }
+
+        private void OnDrawGizmos()
+        {
+            if (entrancePoint)
+            {
+                Gizmos.color = Color.red;
+                Gizmos.DrawSphere(entrancePoint.position, .25f);
+            }
+        }
+        #endif
     }
 }
 

@@ -6,7 +6,7 @@ public class VisitorData : ScriptableObject
     public VisitorType visitorType;
     public Sprite[] variants;
 
-    public AudioClip rejectionSound, acceptedSound;
+    public AudioClip rejectionSound, acceptedSound, roomEnteredSound, roomExitedSound;
     [Range(0f, 1f)] public float appearanceWeight = .1f;
 
     public GameObject characterPrefab;

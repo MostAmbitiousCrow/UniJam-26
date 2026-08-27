@@ -92,6 +92,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
   m_BlendShapeWeights: []
+--- !u!1 &3245986430889958766
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4828763101419669711}
+  m_Layer: 6
+  m_Name: Entrance Point
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4828763101419669711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3245986430889958766}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -0.4, z: -1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1541719200535935519}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &3882573013424752259
 GameObject:
   m_ObjectHideFlags: 0
@@ -449,6 +480,7 @@ Transform:
   - {fileID: 881491874543472116}
   - {fileID: 106512930322492600}
   - {fileID: 1902653918481711741}
+  - {fileID: 4828763101419669711}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5515317441729097231
@@ -469,6 +501,7 @@ MonoBehaviour:
   alertIntensity: 0.15
   patienceTime: 20
   patienceAlert: 5
+  entrancePoint: {fileID: 4828763101419669711}
   triggerSound: {fileID: 5083385491331027239}
   alertSound: {fileID: 7332821899767069426}
 --- !u!135 &6257360838632735552
