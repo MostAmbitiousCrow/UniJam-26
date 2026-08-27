@@ -9,6 +9,8 @@ namespace Managers
 {
     public class VisitorManager : MonoBehaviour
     {
+        public static VisitorManager Instance;
+        
         [Header("Properties")]
         [SerializeField, ReadOnly] private Entrance[] entrances;
         private List<Entrance> _availableEntrances;
@@ -29,6 +31,8 @@ namespace Managers
         
         private void Awake()
         {
+            Instance = this;
+            
             entrances = FindObjectsByType<Entrance>();
 
             _availableEntrances = entrances.ToList();
@@ -96,9 +100,20 @@ namespace Managers
             entrance.DeliverVisitor(GetRandomVisitor());
         }
 
-        private void SpawnVisitorInRoom()
+        private void SpawnVisitorInRoom(VisitorData visitorData)
         {
-            
+            if (visitorData.visitorType is VisitorType.Vampire or VisitorType.Imposter)
+            {
+                var entrance = entrances[Random.Range(0, entrances.Length)];
+                Instantiate(visitorData.characterPrefab, entrance.EntrancePoint.position, Quaternion.identity);
+                
+            }
+            else if (visitorData.visitorType == VisitorType.Survivor)
+            {
+                var roomPoint = _availableRoomPoints[Random.Range(0, _availableRoomPoints.Count)];
+                Instantiate(visitorData.characterPrefab, roomPoint.position, Quaternion.identity);
+                //TODO
+            }
         }
         
         public void ReturnEntrance(Entrance entrance)
@@ -129,7 +144,7 @@ namespace Managers
         
         #endregion
 
-        public static void DecideVisitorChoice(VisitorType visitor, RejectionChoice choice, Entrance entrance = null)
+        public void DecideVisitorChoice(VisitorType visitor, RejectionChoice choice, Entrance entrance = null)
         {
             switch (visitor)
             {

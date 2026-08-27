@@ -69,7 +69,7 @@ namespace Visitors
             yesAudio.clip = _currentEntrance.visitorData.acceptedSound;
             yesAudio?.Play();
             
-            VisitorManager.DecideVisitorChoice(_currentEntrance.visitorData.visitorType, RejectionChoice.Yes);
+            VisitorManager.Instance.DecideVisitorChoice(_currentEntrance.visitorData.visitorType, RejectionChoice.Yes);
             _currentEntrance.RemoveVisitor();
 
             CloseScreen();
@@ -83,7 +83,7 @@ namespace Visitors
             yesAudio.clip = _currentEntrance.visitorData.rejectionSound;
             noAudio?.Play();
             
-            VisitorManager.DecideVisitorChoice(_currentEntrance.visitorData.visitorType, RejectionChoice.No);
+            VisitorManager.Instance.DecideVisitorChoice(_currentEntrance.visitorData.visitorType, RejectionChoice.No);
             _currentEntrance.RemoveVisitor();
             
             CloseScreen();
