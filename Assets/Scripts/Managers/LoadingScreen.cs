@@ -64,6 +64,7 @@ namespace Managers
 
             while (operation is not { isDone: true })
                 yield return null;
+            
             yield return new WaitForEndOfFrame();
 
             yield return FadeIn();
