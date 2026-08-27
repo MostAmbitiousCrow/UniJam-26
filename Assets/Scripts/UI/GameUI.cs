@@ -1,3 +1,5 @@
+using System;
+using System.Collections;
 using DG.Tweening;
 using Managers;
 using TMPro;
@@ -13,7 +15,10 @@ namespace UI
         [Space]
         [SerializeField] private TextMeshProUGUI guardText;
 
-        [Header("Dependencies")] private DaylightManager _daylightManager;
+        [Header("Dependencies")]
+        private DaylightManager _daylightManager;
+
+        private bool _canEscape;
 
         private void Start()
         {
@@ -24,6 +29,9 @@ namespace UI
             
             UpdateGuardVisuals();
             UpdateTimerVisuals();
+            
+            retryButton.onClick.AddListener(RetryGame);
+            returnButton.onClick.AddListener(ReturnToMenu);
         }
 
         private void OnEnable()
@@ -44,7 +52,6 @@ namespace UI
         }
 
         #region Visuals
-
         
 
         private void UpdateTimerVisuals()
@@ -66,12 +73,22 @@ namespace UI
         [SerializeField] private TextMeshProUGUI[] resultsText =  new TextMeshProUGUI[5];
         [Space]
         [SerializeField, TextArea] private string[] gameOverText;
+        [Space]
+        [SerializeField] private Button returnButton;
+        [SerializeField] private Button retryButton;
 
         private void HideResults()
         {
             resultsGroup.alpha = 0f;
             resultsGroup.blocksRaycasts = false;
             resultsGroup.interactable = false;
+        }
+
+        private void ShowButtonOptions()
+        {
+            _canEscape = true;
+            
+            
         }
 
         private void DisplayResults(GameOverType gameOverType)
@@ -106,6 +123,17 @@ namespace UI
                 
                 delay += .15f;
             }*/
+
+        }
+
+        private void ReturnToMenu()
+        {
+            LoadingScreen.Instance.LoadScene("MainMenu");
+        }
+        
+        private void RetryGame()
+        {
+            LoadingScreen.Instance.LoadScene("MainGame");
         }
 
         #endregion

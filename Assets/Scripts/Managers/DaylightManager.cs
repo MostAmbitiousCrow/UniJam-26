@@ -10,6 +10,7 @@ namespace Managers
         [SerializeField] private float targetGameTime = 2.5f;
         [SerializeField, ReadOnly] private float currentGameTime;
         public float CurrentGameTime => currentGameTime;
+        public float TargetGameTime => targetGameTime * 60f;
         public bool doCountDown;
 
         public float NormalisedTime => Mathf.Clamp01(currentGameTime / (targetGameTime * 60f));

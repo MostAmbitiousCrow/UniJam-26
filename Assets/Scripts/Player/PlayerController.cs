@@ -30,6 +30,9 @@ namespace Player
         private Vector2 _moveAxis;
         
         [SerializeField, ReadOnly] private Entrance selectedEntrance;
+        
+        [Header("Audio")]
+        [SerializeField] private AudioSource walkingAudio;
 
         private void Awake()
         {
@@ -63,6 +66,8 @@ namespace Player
             
             animator.SetFloat(MoveYBlend, _moveAxis.y);
             animator.SetFloat(MoveXBlend, _moveAxis.x);
+            
+            walkingAudio.mute = !(_moveAxis.magnitude > .1f);
         }
 
         private void OnInteract()
