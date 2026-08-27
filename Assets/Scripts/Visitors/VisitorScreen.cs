@@ -66,7 +66,7 @@ namespace Visitors
             if (!_currentEntrance) return;
             Debug.Log($"{_currentEntrance.visitorData.visitorType} was Accepted");
             
-            yesAudio.clip = _currentEntrance.visitorData.acceptedSound;
+            // yesAudio.clip = _currentEntrance.visitorData.acceptedSound;
             yesAudio?.Play();
             
             VisitorManager.Instance.DecideVisitorChoice(_currentEntrance.visitorData.visitorType, RejectionChoice.Yes);
@@ -80,7 +80,7 @@ namespace Visitors
             if (!_currentEntrance) return;
              Debug.Log($"{_currentEntrance.visitorData.visitorType} was Rejected");
             
-            yesAudio.clip = _currentEntrance.visitorData.rejectionSound;
+            // yesAudio.clip = _currentEntrance.visitorData.rejectionSound;
             noAudio?.Play();
             
             VisitorManager.Instance.DecideVisitorChoice(_currentEntrance.visitorData.visitorType, RejectionChoice.No);

@@ -14,6 +14,7 @@ namespace UI
         private Image timerImage;
         [Space]
         [SerializeField] private TextMeshProUGUI guardText;
+        [SerializeField] private TextMeshProUGUI surplusSurvivorsText;
 
         [Header("Dependencies")]
         private DaylightManager _daylightManager;
@@ -27,7 +28,7 @@ namespace UI
             
             HideResults();
             
-            UpdateGuardVisuals();
+            UpdateSurvivorVisuals();
             UpdateTimerVisuals();
             
             retryButton.onClick.AddListener(RetryGame);
@@ -36,13 +37,13 @@ namespace UI
 
         private void OnEnable()
         {
-            GameManager.OnSurvivorsUpdated += UpdateGuardVisuals;
+            GameManager.OnSurvivorsUpdated += UpdateSurvivorVisuals;
             GameManager.OnGameOver += DisplayResults;
         }
 
         private void OnDisable()
         {
-            GameManager.OnSurvivorsUpdated -= UpdateGuardVisuals;
+            GameManager.OnSurvivorsUpdated -= UpdateSurvivorVisuals;
             GameManager.OnGameOver -= DisplayResults;
         }
 
@@ -59,9 +60,10 @@ namespace UI
             timerImage.fillAmount = _daylightManager.NormalisedTime;
         }
 
-        private void UpdateGuardVisuals()
+        private void UpdateSurvivorVisuals()
         {
             guardText.SetText($"{GameManager.Instance.currentGuards}/{GameManager.Instance.maxGuards}");
+            surplusSurvivorsText.SetText($"{GameManager.Instance.survivorsInInventory}");
         }
         #endregion
 

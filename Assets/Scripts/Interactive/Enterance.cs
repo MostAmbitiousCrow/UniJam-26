@@ -88,6 +88,8 @@ namespace Triggerable
         {
             var time = 0f;
             var alerted = false;
+            
+            alertSound.Play();
 
             while (time < patienceTime)
             {
@@ -98,6 +100,8 @@ namespace Triggerable
                     tween.SetEase(Ease.InOutCubic);
                     tween.SetLoops(-1, LoopType.Yoyo);
                     alerted = true;
+                    
+                    alertSound.Play();
                 }
                 
                 yield return time += Time.deltaTime;
@@ -133,7 +137,7 @@ namespace Triggerable
         {
             if (!hasVisitor) return;
             
-            triggerSound?.Play();
+            triggerSound.Play();
             VisitorScreen.instance.OpenScreen(this);
             
             Debug.Log($"{gameObject} Entrance Triggered");

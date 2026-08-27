@@ -2642,9 +2642,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: ec69ecbff5863e3409ed1b7369de1119, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -3229,9 +3229,9 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
-  m_Resource: {fileID: 0}
+  m_Resource: {fileID: 8300000, guid: 46e87165d12b3b844ac0f6fce1c11b49, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -4201,6 +4201,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::GameUI
   timerImage: {fileID: 1589121787}
   guardText: {fileID: 326390612}
+  surplusSurvivorsText: {fileID: 2039771833}
   resultsGroup: {fileID: 68872397}
   endingText: {fileID: 1628113085}
   resultsText:
