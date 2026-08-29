@@ -103,7 +103,7 @@ namespace Visitors
             visitorImage.sprite = _currentEntrance.visitorData.GetVariant();
         }
 
-        private void CloseScreen()
+        public void CloseScreen()
         {
             canvasGroup.alpha = 0;
             canvasGroup.blocksRaycasts = false;

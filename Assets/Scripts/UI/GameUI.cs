@@ -1,7 +1,9 @@
+using System;
 using DG.Tweening;
 using Managers;
 using TMPro;
 using UnityEngine;
+using UnityEngine.InputSystem;
 using UnityEngine.UI;
 
 namespace UI
@@ -19,6 +21,11 @@ namespace UI
 
         private bool _canEscape;
 
+        private void Awake()
+        {
+            _pauseInput = InputSystem.actions.FindAction("Pause");
+        }
+
         private void Start()
         {
             _daylightManager = FindAnyObjectByType<DaylightManager>();
@@ -31,6 +38,8 @@ namespace UI
             
             retryButton.onClick.AddListener(RetryGame);
             returnButton.onClick.AddListener(ReturnToMenu);
+            
+            pauseMenu.SetActive(false);
         }
 
         private void OnEnable()
@@ -52,6 +61,15 @@ namespace UI
         private void FixedUpdate()
         {
             UpdateTimerVisuals();
+        }
+
+        private void Update()
+        {
+            if (GameManager.Instance.isGameOver) return;
+            if (!_pauseInput.WasPerformedThisFrame()) return;
+            
+            if (GameManager.IsGamePaused) GameManager.ResumeGame();
+            else GameManager.PauseGame();
         }
 
         #region Visuals
@@ -146,10 +164,11 @@ namespace UI
 
         [Header("Pause Menu")]
         [SerializeField] private GameObject pauseMenu;
+        private InputAction _pauseInput;
         
         private void TogglePauseMenu(bool state)
         {
-            pauseMenu.SetActive(state);
+            if (!GameManager.Instance.isGameOver) pauseMenu.SetActive(state);
         }
 
         #endregion

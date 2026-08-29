@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 3671447404853732913}
   - component: {fileID: 3242578716284943975}
   - component: {fileID: 3011458204368891284}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Prop (Square)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &3671447404853732913
 Transform:
@@ -77,12 +77,12 @@ GameObject:
   m_Component:
   - component: {fileID: 5727756875002788679}
   - component: {fileID: 8764297736864618519}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 2147483647
   m_IsActive: 1
 --- !u!4 &5727756875002788679
 Transform:
@@ -149,7 +149,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 1, g: 0, b: 0, a: 1}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0

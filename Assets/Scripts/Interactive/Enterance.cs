@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using DG.Tweening;
 using EditorAttributes;
@@ -115,12 +114,13 @@ namespace Triggerable
         private void OnVisitorPatienceEnded()
         {
             // The Survivor waited too long as was killed
-            if (visitorData.visitorType == VisitorType.Survivor) 
+            if (visitorData.visitorType == VisitorType.Survivor)
                 VisitorManager.Instance.DecideVisitorChoice(visitorData, RejectionChoice.No);
             
             // The Vampire/Imposter was able to enter the house after not being rejected
             else VisitorManager.Instance.DecideVisitorChoice(visitorData, RejectionChoice.Yes);
             
+            VisitorScreen.instance.CloseScreen();
             RemoveVisitor();
         }
 
@@ -142,6 +142,7 @@ namespace Triggerable
             
             Debug.Log($"{gameObject} Entrance Triggered");
         }
+        
         #endregion
 
         #if UNITY_EDITOR

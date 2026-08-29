@@ -39,6 +39,8 @@ namespace Managers
         public static Action OnGameStarted, OnGameEnded;
         public static Action<GameOverType> OnGameOver;
 
+        public bool isGameOver;
+
         public static void StartGame()
         {
             Debug.Log("GAME STARTED");
@@ -61,8 +63,9 @@ namespace Managers
         {
             Debug.Log("GAME OVER WAS TRIGGERED");
             
+            Instance.isGameOver = true;
             OnGameOver?.Invoke(type);
-            OnGameEnded?.Invoke();
+            EndGame();
         }
         
         #endregion
@@ -76,14 +79,14 @@ namespace Managers
         {
             Time.timeScale = 0f;
             IsGamePaused = true;
-            OnPauseUpdated.Invoke(IsGamePaused);
+            OnPauseUpdated?.Invoke(IsGamePaused);
         }
 
         public static void ResumeGame()
         {
             Time.timeScale = 1f;
             IsGamePaused = false;
-            OnPauseUpdated.Invoke(IsGamePaused);
+            OnPauseUpdated?.Invoke(IsGamePaused);
         }
         #endregion
         

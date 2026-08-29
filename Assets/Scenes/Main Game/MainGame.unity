@@ -703,7 +703,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69
+  m_fontSize: 69.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -840,7 +840,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69
+  m_fontSize: 69.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1367,7 +1367,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69
+  m_fontSize: 69.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -2577,7 +2577,7 @@ MonoBehaviour:
   vampireData: {fileID: 11400000, guid: 6040c2ad4172146498c0af546b1c10a4, type: 2}
   survivorData: {fileID: 11400000, guid: c967a8d444dcb944999572c58a59dc74, type: 2}
   imposterData: {fileID: 11400000, guid: 08d91991c3c9f1f4f8c5bc3370055b30, type: 2}
-  spawnRate: {x: 12, y: 15}
+  spawnRate: {x: 10, y: 13}
   maximumVisitors: 5
   _currentTime: 0
   _targetTime: 0
@@ -4156,7 +4156,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69
+  m_fontSize: 69.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -4688,6 +4688,7 @@ MonoBehaviour:
   - You Were Consumed...
   returnButton: {fileID: 850837622}
   retryButton: {fileID: 742477888}
+  pauseMenu: {fileID: 1462313854}
 --- !u!1 &1589121785
 GameObject:
   m_ObjectHideFlags: 0
@@ -4904,7 +4905,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70.7
+  m_fontSize: 70.9
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5041,7 +5042,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69
+  m_fontSize: 69.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5311,7 +5312,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69
+  m_fontSize: 69.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -5970,7 +5971,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 70.7
+  m_fontSize: 70.9
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6070,6 +6071,7 @@ MonoBehaviour:
   currentGuards: 0
   maxGuards: 5
   survivorsInInventory: 0
+  isGameOver: 0
 --- !u!1 &1984939053
 GameObject:
   m_ObjectHideFlags: 0
@@ -6747,7 +6749,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69
+  m_fontSize: 69.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -6884,7 +6886,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 69
+  m_fontSize: 69.05
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1

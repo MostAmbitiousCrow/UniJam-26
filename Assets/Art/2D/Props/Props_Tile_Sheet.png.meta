@@ -1,0 +1,436 @@
+fileFormatVersion: 2
+guid: 4bb799e5109f9d34d96eb20805278cc7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5455807613326806791
+    second: Props_Tile_Sheet_0
+  - first:
+      213: -5425084350871251413
+    second: Props_Tile_Sheet_1
+  - first:
+      213: 6265045734852852090
+    second: Props_Tile_Sheet_2
+  - first:
+      213: 7216965282607869269
+    second: Props_Tile_Sheet_3
+  - first:
+      213: 8513253149598568868
+    second: Props_Tile_Sheet_4
+  - first:
+      213: 2225535449799989101
+    second: Props_Tile_Sheet_5
+  - first:
+      213: 2149837782364330954
+    second: Props_Tile_Sheet_6
+  - first:
+      213: -6629294955792009511
+    second: Props_Tile_Sheet_7
+  - first:
+      213: -7294686656494029282
+    second: Props_Tile_Sheet_8
+  - first:
+      213: -4328521860762602060
+    second: Props_Tile_Sheet_9
+  - first:
+      213: -4823615793348106845
+    second: Props_Tile_Sheet_10
+  - first:
+      213: -748292339644737481
+    second: Props_Tile_Sheet_11
+  - first:
+      213: -7412353781525441483
+    second: Props_Tile_Sheet_12
+  - first:
+      213: -3407743869060348055
+    second: Props_Tile_Sheet_13
+  - first:
+      213: -3179849255907946411
+    second: Props_Tile_Sheet_14
+  - first:
+      213: -736769991243730910
+    second: Props_Tile_Sheet_15
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 768
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 1024
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 3
+    compressionQuality: 50
+    crunchedCompression: 1
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Desk
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 3383
+        width: 1322
+        height: 704
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 70f47334e1ce6bb40800000000000000
+      internalID: 5455807613326806791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Kitchenware
+      rect:
+        serializedVersion: 2
+        x: 1349
+        y: 3321
+        width: 1272
+        height: 766
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b26d9c5b68a36b4b0800000000000000
+      internalID: -5425084350871251413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Sofa
+      rect:
+        serializedVersion: 2
+        x: 2634
+        y: 3102
+        width: 1426
+        height: 985
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79fa77f6e9e1f650800000000000000
+      internalID: 6265045734852852090
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Decoration
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 1883
+        width: 840
+        height: 1113
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55d2b2affafc72460800000000000000
+      internalID: 7216965282607869269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Window
+      rect:
+        serializedVersion: 2
+        x: 1155
+        y: 1862
+        width: 799
+        height: 1134
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d671e5043b0b2ee10800000000000000
+      internalID: 2225535449799989101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Lamp
+      rect:
+        serializedVersion: 2
+        x: 1972
+        y: 1733
+        width: 382
+        height: 1263
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: acb1a8e9212c5dd10800000000000000
+      internalID: 2149837782364330954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Shelf
+      rect:
+        serializedVersion: 2
+        x: 2372
+        y: 1731
+        width: 698
+        height: 1265
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d67ab87c530004a0800000000000000
+      internalID: -6629294955792009511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 403
+        width: 1138
+        height: 1319
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1634e3822114ca90800000000000000
+      internalID: -7294686656494029282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Piano
+      rect:
+        serializedVersion: 2
+        x: 1165
+        y: 501
+        width: 1377
+        height: 1212
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b57bb61d400ee3c0800000000000000
+      internalID: -4328521860762602060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Clock
+      rect:
+        serializedVersion: 2
+        x: 2583
+        y: 365
+        width: 581
+        height: 1348
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 738545be4188d95f0800000000000000
+      internalID: -748292339644737481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Stove
+      rect:
+        serializedVersion: 2
+        x: 3182
+        y: 322
+        width: 704
+        height: 1399
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53417ae0287022990800000000000000
+      internalID: -7412353781525441483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 26c8005da00e4bf4c85ba9eca9f24a2e
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Clock: -748292339644737481
+      Decoration: 7216965282607869269
+      Desk: 5455807613326806791
+      Door: -7294686656494029282
+      Kitchenware: -5425084350871251413
+      Lamp: 2149837782364330954
+      Piano: -4328521860762602060
+      Props_Tile_Sheet_10: -4823615793348106845
+      Props_Tile_Sheet_13: -3407743869060348055
+      Props_Tile_Sheet_14: -3179849255907946411
+      Props_Tile_Sheet_15: -736769991243730910
+      Props_Tile_Sheet_4: 8513253149598568868
+      Shelf: -6629294955792009511
+      Sofa: 6265045734852852090
+      Stove: -7412353781525441483
+      Window: 2225535449799989101
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -200,7 +200,7 @@ namespace Managers
         {
             if (_availableRoomPoints.Count == 0)
             {
-                Debug.LogWarning("No available room points!");
+                GameManager.Instance.AddSurvivor();
                 return false;
             }
 

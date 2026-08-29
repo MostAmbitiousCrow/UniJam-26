@@ -41,6 +41,11 @@ namespace Managers
                 CountTimer();
                 UpdateGlobalLight();
             }
+            else
+            {
+                globalLight.intensity = globalLightIntensity.Evaluate(1f);
+                globalLight.transform.rotation = Quaternion.Euler(globalLightRotation.Evaluate(1f), 0f, 0f);
+            }
         }
 
         private void StartTimer()
