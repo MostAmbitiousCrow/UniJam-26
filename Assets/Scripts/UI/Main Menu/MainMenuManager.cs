@@ -40,7 +40,7 @@ public class MainMenuManager : MonoBehaviour
     
     public void StartGame()
     {
-        LoadingScreen.Instance.LoadScene("MainGame");
+        LoadingScreen.Instance.LoadScene("Story");
     }
 
     public void QuitGame()
