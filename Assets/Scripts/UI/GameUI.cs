@@ -1,5 +1,3 @@
-using System;
-using System.Collections;
 using DG.Tweening;
 using Managers;
 using TMPro;
@@ -39,12 +37,16 @@ namespace UI
         {
             GameManager.OnSurvivorsUpdated += UpdateSurvivorVisuals;
             GameManager.OnGameOver += DisplayResults;
+
+            GameManager.OnPauseUpdated += TogglePauseMenu;
         }
 
         private void OnDisable()
         {
             GameManager.OnSurvivorsUpdated -= UpdateSurvivorVisuals;
             GameManager.OnGameOver -= DisplayResults;
+            
+            GameManager.OnPauseUpdated -= TogglePauseMenu;
         }
 
         private void FixedUpdate()
@@ -136,6 +138,18 @@ namespace UI
         private void RetryGame()
         {
             LoadingScreen.Instance.LoadScene("MainGame");
+        }
+
+        #endregion
+
+        #region Pause Menu
+
+        [Header("Pause Menu")]
+        [SerializeField] private GameObject pauseMenu;
+        
+        private void TogglePauseMenu(bool state)
+        {
+            pauseMenu.SetActive(state);
         }
 
         #endregion

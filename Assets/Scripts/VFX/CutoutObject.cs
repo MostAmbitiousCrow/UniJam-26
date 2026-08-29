@@ -16,7 +16,7 @@ public class CutoutObject : MonoBehaviour
         cutoutObjects = GameObject.FindGameObjectsWithTag("Cutout");
     }
 
-    void Update()
+    void FixedUpdate()
     {
         bool[] cutoutsHit = new bool[cutoutObjects.Length];
         Camera mainCamera = Camera.main;

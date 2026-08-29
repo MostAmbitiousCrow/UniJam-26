@@ -257,14 +257,16 @@ MonoBehaviour:
       m_Calls: []
   m_text: "Washington, 1862. Tonight marks a hundred years since the sky last turned
     red. No history book records what happened the last time, only a single note,
-    left by an ancestor, cut short: \u201C\u2026their eyes\u2026. teeth.\u2026their
-    ears and their skin\u2026\" \r\nNobody knows what happened next. But if the old
-    rumours persist on this night, something bloodthirsty wakes up hungry.\r\nLincoln
-    is alone in the White House when the sky turns red at 10 PM. If the rumours are
-    true, no one is safe. Survivors will come to the gate begging for shelter, and
-    so will the creatures hunting them. Lincoln must decide, face by face, who gets
-    to come in. There's no sure way to tell them apart. \r\nSurvive until 6 AM. Save
-    who you can.\nTrust no one.\r\n"
+    left by an ancestor, cut short: \"<color=#FF0000>\u2026their eyes\u2026. teeth.\u2026their
+    ears and their skin\u2026</color>\"\n\n<color=#FF0000>Nobody knows what happened
+    next.</color> But if the old rumours persist on this night, something bloodthirsty
+    wakes up hungry.\n\nLincoln is alone in the <color=#FF0000>White House</color>
+    when the sky turns red at <color=#FF0000>10 PM</color>. If the rumours are true,
+    <color=#FF0000>no one is safe</color>. Survivors will come to the gate begging
+    for shelter, and so will the creatures hunting them. Lincoln must decide, face
+    by face, who gets to come in. <color=#FF0000>There's no sure way to tell them
+    apart</color>.\n\nSurvive until 6 AM. <color=#FF0000>Save who you can. Trust
+    no one.</color>"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: eddd4de0303d2784ab23a700220e807f, type: 2}
   m_sharedMaterial: {fileID: 1677595639793549429, guid: eddd4de0303d2784ab23a700220e807f, type: 2}
@@ -291,7 +293,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 27.9
+  m_fontSize: 24.3
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1108,7 +1110,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 21.2
+  m_fontSize: 21
   m_fontSizeBase: 24
   m_fontWeight: 400
   m_enableAutoSizing: 1

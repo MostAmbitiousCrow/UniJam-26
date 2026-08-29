@@ -8,6 +8,10 @@ namespace Characters
 {
     public class VampireController : MonoBehaviour
     {
+        private static readonly int MoveYBlend = Animator.StringToHash("MoveYBlend");
+        private static readonly int MoveXBlend = Animator.StringToHash("MoveXBlend");
+        private static readonly int Actioning = Animator.StringToHash("Actioning");
+
         [Header("Movement")]
         [SerializeField] private NavMeshAgent agent;
         [SerializeField] private float stoppingDistance = 1f;
@@ -23,28 +27,40 @@ namespace Characters
 
         [Header("Effects")]
         [SerializeField] private ParticleSystem transformParticles;
+        
+        [Header("Art")]
+        [SerializeField] private Animator animator;
+        [SerializeField] private SpriteRenderer renderer;
 
-        [Header("Debug")]
-        [SerializeField] private Character target;
-        [SerializeField, ReadOnly] private bool isStealing;
+        private Character _target;
+        private bool _isStealing;
 
         private Tween _liftTween;
         private Tween _grabTween;
 
-        private bool HasTarget => target;
+        private bool HasTarget => _target;
 
         private void Awake()
         {
             agent.stoppingDistance = stoppingDistance;
+            
+            animator.transform.parent = null;
+            animator.transform.rotation = Quaternion.identity;
         }
 
         private void FixedUpdate()
         {
-            if (!HasTarget || isStealing)
+            // Keep the artwork on the agent
+            animator.transform.position = agent.transform.position;
+            
+            if (!HasTarget || _isStealing)
                 return;
 
             // Keep following the target while they're moving.
-            agent.SetDestination(target.transform.position);
+            agent.SetDestination(_target.transform.position);
+            
+            animator.SetFloat(MoveYBlend, agent.velocity.y);
+            animator.SetFloat(MoveXBlend, agent.velocity.x);
 
             if (HasReachedTarget())
             {
@@ -61,13 +77,13 @@ namespace Characters
                 return;
             }
 
-            target = newTarget;
-            isStealing = false;
+            _target = newTarget;
+            _isStealing = false;
 
             agent.isStopped = false;
             agent.stoppingDistance = stoppingDistance;
 
-            agent.SetDestination(target.transform.position);
+            agent.SetDestination(_target.transform.position);
         }
 
         private bool HasReachedTarget()
@@ -81,19 +97,22 @@ namespace Characters
 
         private void StealTarget()
         {
-            if (!HasTarget || isStealing) return;
+            if (!HasTarget || _isStealing) return;
 
-            isStealing = true;
+            _isStealing = true;
 
             agent.isStopped = true;
             agent.ResetPath();
 
             transformParticles?.Play();
 
-            target.OnGrabbed();
+            _target.OnGrabbed();
+            _target.transform.rotation = Quaternion.identity;
+            
+            animator.SetBool(Actioning, true);
 
             // Move the target into the vampire's hands
-            _grabTween = target.transform.DOMove(grabPoint.position, grabDuration).SetEase(Ease.InOutSine)
+            _grabTween = _target.transform.DOMove(grabPoint.position, grabDuration).SetEase(Ease.InOutSine)
                 .OnComplete(BeginLift);
         }
 
@@ -106,11 +125,11 @@ namespace Characters
             }
 
             // Parent the victim to the vampire so they rise together.
-            target.transform.SetParent(grabPoint, true);
+            _target.transform.SetParent(grabPoint, true);
 
             // Snap them precisely into the grab position.
-            target.transform.localPosition = Vector3.zero;
-            target.transform.localRotation = Quaternion.identity;
+            _target.transform.localPosition = Vector3.zero;
+            _target.transform.localRotation = Quaternion.identity;
 
             var targetY = transform.position.y + carryHeight;
 
@@ -121,16 +140,16 @@ namespace Characters
 
         private void FinishSteal()
         {
-            if (target)
+            if (_target)
             {
                 // Remove the target from the house.
-                VisitorManager.Instance.RemoveCapturedCharacter(target);
-                target.OnStolen();
+                VisitorManager.Instance.RemoveCapturedCharacter(_target);
+                _target.OnStolen();
 
-                target.transform.SetParent(null);
+                _target.transform.SetParent(null);
             }
             
-            target = null;
+            _target = null;
 
             ReturnToPool();
         }
@@ -142,6 +161,7 @@ namespace Characters
 
             // If you're using an object pool, return it here.
             // Otherwise:
+            Destroy(animator.gameObject);
             Destroy(gameObject);
         }
 
@@ -154,20 +174,16 @@ namespace Characters
 #if UNITY_EDITOR
         private void OnDrawGizmos()
         {
-            if (!Application.isPlaying || target == null)
+            if (!Application.isPlaying || !_target)
                 return;
 
             Gizmos.color = Color.red;
-            Gizmos.DrawLine(
-                transform.position,
-                target.transform.position);
+            Gizmos.DrawLine(transform.position, _target.transform.position);
 
-            if (grabPoint != null)
+            if (grabPoint)
             {
                 Gizmos.color = Color.yellow;
-                Gizmos.DrawWireSphere(
-                    grabPoint.position,
-                    .15f);
+                Gizmos.DrawWireSphere(grabPoint.position, .15f);
             }
         }
 #endif

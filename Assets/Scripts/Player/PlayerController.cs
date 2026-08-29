@@ -14,7 +14,8 @@ namespace Player
         private static readonly int MoveYBlend = Animator.StringToHash("MoveYBlend");
         private static readonly int MoveXBlend = Animator.StringToHash("MoveXBlend");
         private static readonly int Multiplier = Animator.StringToHash("Multiplier");
-        
+        private static readonly int Actioning = Animator.StringToHash("Actioning");
+
         [SerializeField] private float moveSpeed = 5f;
         [SerializeField] private float boostMultiplier = 2f;
         private float _currentBoost = 1f;
@@ -49,11 +50,13 @@ namespace Player
         {
             if (_interactInput.WasCompletedThisFrame()) OnInteract();
             
+            #if UNITY_EDITOR
             // DEV
             if (Keyboard.current.digit1Key.wasPressedThisFrame) Time.timeScale = 1f;
             if (Keyboard.current.digit2Key.wasPressedThisFrame) Time.timeScale = 2f;
             if (Keyboard.current.digit3Key.wasPressedThisFrame) Time.timeScale = 4f;
             if (Keyboard.current.digit4Key.wasPressedThisFrame) Time.timeScale = 8f;
+            #endif
         }
 
         private void FixedUpdate()
@@ -114,6 +117,8 @@ namespace Player
         {
             base.OnGrabbed();
             cinemachine.Follow = null;
+            
+            animator.SetBool(Actioning, true);
         }
 
         public override void OnStolen()

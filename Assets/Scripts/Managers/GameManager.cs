@@ -70,17 +70,20 @@ namespace Managers
         #region Pausing
 
         public static bool IsGamePaused;
+        public static Action<bool> OnPauseUpdated;
         
         public static void PauseGame()
         {
             Time.timeScale = 0f;
             IsGamePaused = true;
+            OnPauseUpdated.Invoke(IsGamePaused);
         }
 
         public static void ResumeGame()
         {
             Time.timeScale = 1f;
             IsGamePaused = false;
+            OnPauseUpdated.Invoke(IsGamePaused);
         }
         #endregion
         
